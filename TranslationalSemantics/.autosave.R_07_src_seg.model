@@ -9,8 +9,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						803.1717872033607,
-						430
+						787.1717872033607,
+						391
 					]
 				},
 				"orientation": {
@@ -99,8 +99,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						2049,
-						386
+						2061,
+						388
 					]
 				},
 				"orientation": {
@@ -189,8 +189,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1275,
-						1175
+						1259,
+						1136
 					]
 				},
 				"orientation": {
@@ -393,8 +393,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1109.0717301663155,
-						843.7535277779136
+						1093.0717301663155,
+						804.7535277779136
 					]
 				},
 				"orientation": {
@@ -430,8 +430,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/LHSIcon/0.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/84.instance": "M920.6356890432098,481L1109.0717301663155,843.7535277779136",
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/84.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pTransitionIcon/58.instance": "M1109.0717301663155,843.7535277779136L1297.5077712894213,1206.5070555558273"
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/LHSIcon/0.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/84.instance": "M904.6356890432098,442L1093.0717301663155,804.7535277779136",
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/84.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pTransitionIcon/58.instance": "M1093.0717301663155,804.7535277779136L1281.5077712894213,1167.5070555558273"
 					}
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
@@ -444,8 +444,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1481,
-						829
+						1465,
+						790
 					]
 				},
 				"orientation": {
@@ -687,8 +687,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1180.5532687557097,
-						664.2496449242096
+						1164.5532687557097,
+						625.2496449242096
 					]
 				},
 				"orientation": {
@@ -724,8 +724,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/LHSIcon/0.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/94.instance": "M802.1069957317977,432L1180.5532687557097,664.2496449242096",
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/94.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSegmentIcon/93.instance": "M1180.5532687557097,664.2496449242096L1558.999541779622,896.4992898484192"
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/LHSIcon/0.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/94.instance": "M786.1069957317977,393L1164.5532687557097,625.2496449242096",
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/94.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSegmentIcon/93.instance": "M1164.5532687557097,625.2496449242096L1542.999541779622,857.4992898484192"
 					}
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
@@ -738,8 +738,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1533,
-						1161
+						1517,
+						1122
 					]
 				},
 				"orientation": {
@@ -1019,8 +1019,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1178.2213673865617,
-						811.9995654087678
+						1162.2213673865617,
+						772.9995654087678
 					]
 				},
 				"orientation": {
@@ -1056,8 +1056,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/LHSIcon/0.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/96.instance": "M802.1069957317977,432L1178.2213673865617,811.9995654087678",
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/96.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/95.instance": "M1178.2213673865617,811.9995654087678L1554.3357390413257,1191.9991308175356"
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/LHSIcon/0.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/96.instance": "M786.1069957317977,393L1162.2213673865617,772.9995654087678",
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/96.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/95.instance": "M1162.2213673865617,772.9995654087678L1538.3357390413257,1152.9991308175356"
 					}
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
@@ -1087,8 +1087,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1566.0000038097346,
-						1065.9997072853976
+						1550.0000038097346,
+						1026.9997072853976
 					]
 				},
 				"orientation": {
@@ -1167,8 +1167,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSegmentIcon/93.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/97.instance": "M1578,963L1566.0000038097346,1065.9997072853976",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/97.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/95.instance": "M1566.0000038097346,1065.9997072853976L1554.0000076194692,1168.9994145707954"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSegmentIcon/93.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/97.instance": "M1562,924L1550.0000038097346,1026.9997072853976",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/97.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/95.instance": "M1550.0000038097346,1026.9997072853976L1538.0000076194692,1129.9994145707954"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink"
@@ -1181,8 +1181,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						2932,
-						1152
+						2944,
+						1154
 					]
 				},
 				"orientation": {
@@ -1445,8 +1445,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						2860,
-						707
+						2872,
+						709
 					]
 				},
 				"orientation": {
@@ -1671,8 +1671,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						2503,
-						1140
+						2515,
+						1142
 					]
 				},
 				"orientation": {
@@ -1875,8 +1875,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						2955.0000038097346,
-						1000.4997072853977
+						2967.0000038097346,
+						1002.4997072853976
 					]
 				},
 				"orientation": {
@@ -1955,8 +1955,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSegmentIcon/121.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/125.instance": "M2957,841L2955.0000038097346,1000.4997072853977",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/125.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/120.instance": "M2955.0000038097346,1000.4997072853977L2953.000007619469,1159.9994145707954"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSegmentIcon/121.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/125.instance": "M2969,843L2967.0000038097346,1002.4997072853978",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/125.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/120.instance": "M2967.0000038097346,1002.4997072853978L2965.000007619469,1161.9994145707954"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink"
@@ -1986,8 +1986,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						2501.4177843614216,
-						784.7496742257449
+						2513.4177843614216,
+						786.7496742257449
 					]
 				},
 				"orientation": {
@@ -2023,8 +2023,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon/1.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/127.instance": "M2049,386L2501.4177843614216,784.7496742257449",
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/127.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/120.instance": "M2501.4177843614216,784.7496742257449L2953.835568722843,1183.4993484514898"
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon/1.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/127.instance": "M2061,388L2513.4177843614216,786.7496742257449",
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/127.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/120.instance": "M2513.4177843614216,786.7496742257449L2965.835568722843,1185.4993484514898"
 					}
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
@@ -2054,8 +2054,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						2493.499654140195,
-						580.2497683459846
+						2505.499654140195,
+						582.2497683459846
 					]
 				},
 				"orientation": {
@@ -2091,8 +2091,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon/1.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/128.instance": "M2049,386L2493.499654140195,580.2497683459846",
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/128.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSegmentIcon/121.instance": "M2493.499654140195,580.2497683459846L2937.99930828039,774.4995366919693"
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon/1.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/128.instance": "M2061,388L2505.499654140195,582.2497683459846",
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/128.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSegmentIcon/121.instance": "M2505.499654140195,582.2497683459846L2949.9993082803894,776.4995366919693"
 					}
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
@@ -2122,8 +2122,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						2287.667687168082,
-						779.2497195393224
+						2299.667687168082,
+						781.2497195393224
 					]
 				},
 				"orientation": {
@@ -2159,8 +2159,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon/1.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/130.instance": "M2049,386L2287.667687168082,779.2497195393224",
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/130.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pTransitionIcon/123.instance": "M2287.667687168082,779.2497195393224L2526.3353743361645,1172.4994390786449"
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon/1.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/130.instance": "M2061,388L2299.667687168082,781.2497195393224",
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/130.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pTransitionIcon/123.instance": "M2299.667687168082,781.2497195393224L2538.335374336164,1174.4994390786449"
 					}
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
@@ -2173,8 +2173,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						2414,
-						680
+						2426,
+						682
 					]
 				},
 				"orientation": {
@@ -2498,8 +2498,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1125,
-						808
+						1109,
+						769
 					]
 				},
 				"orientation": {
@@ -2840,8 +2840,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1001.9907682965757,
-						681.9996831051491
+						985.9907682965757,
+						642.9996831051491
 					]
 				},
 				"orientation": {
@@ -2877,8 +2877,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/LHSIcon/0.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/143.instance": "M802.1069957317977,432L1001.9907682965757,681.9996831051491",
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/143.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon/142.instance": "M1001.9907682965757,681.9996831051491L1201.8745408613536,931.9993662102981"
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/LHSIcon/0.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/143.instance": "M786.1069957317977,393L985.9907682965757,642.9996831051491",
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/143.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon/142.instance": "M985.9907682965757,642.9996831051491L1185.8745408613536,892.9993662102981"
 					}
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
@@ -2908,8 +2908,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1266.499956957553,
-						1061.9997522434758
+						1250.499956957553,
+						1022.9997522434758
 					]
 				},
 				"orientation": {
@@ -2988,8 +2988,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon/142.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/144.instance": "M1240,939L1266.499956957553,1061.9997522434758",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/144.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pTransitionIcon/58.instance": "M1266.499956957553,1061.9997522434758L1292.9999139151062,1184.9995044869515"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon/142.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/144.instance": "M1224,900L1250.499956957553,1022.9997522434758",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/144.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pTransitionIcon/58.instance": "M1250.499956957553,1022.9997522434758L1276.9999139151062,1145.9995044869515"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink"
@@ -3019,8 +3019,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						2269.9375,
-						595
+						2281.9375,
+						597
 					]
 				},
 				"orientation": {
@@ -3056,8 +3056,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon/1.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/145.instance": "M2049,386L2269.9375,595",
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/145.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon/141.instance": "M2270.0463000483005,595.1029214601182L2490.8744264873676,803.9994574748961"
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon/1.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/145.instance": "M2061,388L2281.9375,597",
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/145.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon/141.instance": "M2282.0463000483005,597.1029214601182L2502.8744264873676,805.9994574748961"
 					}
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
@@ -3087,8 +3087,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						2516.5,
-						980
+						2528.5,
+						982
 					]
 				},
 				"orientation": {
@@ -3167,8 +3167,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon/141.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/147.instance": "M2513,807L2516.5,980",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/147.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pTransitionIcon/123.instance": "M2516.5015120785442,980.0747398823264L2519.999984221762,1152.9992201042467"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon/141.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/147.instance": "M2525,809L2528.5,982",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/147.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pTransitionIcon/123.instance": "M2528.501512078544,982.0747398823264L2531.999984221762,1154.9992201042467"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink"
@@ -3198,8 +3198,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1390.6499999731648,
-						900.0065934054138
+						1374.6499999731648,
+						861.0065934054138
 					]
 				},
 				"orientation": {
@@ -3380,8 +3380,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon/142.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pout0Link/148.instance": "M1254,894L1390.6499999731648,900.0065934054138",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pout0Link/148.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSegmentIcon/93.instance": "M1390.5746703263599,900.0032822121477L1526.9990117135612,905.9999565588379"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon/142.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pout0Link/148.instance": "M1238,855L1374.6499999731648,861.0065934054138",
+						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pout0Link/148.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSegmentIcon/93.instance": "M1374.5746703263599,861.0032822121477L1510.9990117135612,866.9999565588379"
 					}
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pout0Link"
@@ -3411,8 +3411,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						2723.6499999851508,
-						768.5004087193056
+						2735.6499999851508,
+						770.5004087193056
 					]
 				},
 				"orientation": {
@@ -3474,7 +3474,7 @@
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0.1561189038582957"
+									"value": "0;0.15611890385829608"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -3518,12 +3518,12 @@
 									"type": "list<double>",
 									"value": [
 										"0;183.36016386305118,99.99962877650303%",
-										"0;-3.500395873891307,0.2724785525245667%"
+										"0;-3.500395873891307,0.2724785525245661%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0.1561189038583132"
+									"value": "0;0.15611890385831284"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -3593,8 +3593,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon/141.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pout0Link/149.instance": "M2540,768L2723.6499999851508,768.5004087193056",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pout0Link/149.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSegmentIcon/121.instance": "M2723.5747547665546,768.5002036914619L2906.999264706101,768.9999979964745"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon/141.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pout0Link/149.instance": "M2552,770L2735.6499999851503,770.5004087193056",
+						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pout0Link/149.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSegmentIcon/121.instance": "M2735.574754766554,770.5002036914619L2918.999264706101,770.9999979964745"
 					}
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pout0Link"
@@ -3624,8 +3624,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						2733.5,
-						1172
+						2745.5,
+						1174
 					]
 				},
 				"orientation": {
@@ -3681,7 +3681,7 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-15.694954171565314,0%",
+										"0;-15.694954171565769,0%",
 										"0;-20.275170813315754,0%"
 									]
 								},
@@ -3730,13 +3730,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;208.6909790772561,99.8851821493013%",
-										"0;6.004561674628803,4.790656218191906%"
+										"0;208.69097907725518,99.8851821493013%",
+										"0;6.004561674628803,4.790656218191926%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;2.7458948302792208"
+									"value": "0;2.7458948302792323"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -3806,8 +3806,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons.pattern/__pTransitionIcon/123.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pTransitionToPlaceLink/150.instance": "M2525,1162L2733.5,1172",
-						"/Formalisms/PNS/PN.defaultIcons.pattern/__pTransitionToPlaceLink/150.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/120.instance": "M2733.5747841712364,1172.0035867708027L2941.9993528285286,1181.9999689606009"
+						"/Formalisms/PNS/PN.defaultIcons.pattern/__pTransitionIcon/123.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pTransitionToPlaceLink/150.instance": "M2537,1164L2745.5,1174",
+						"/Formalisms/PNS/PN.defaultIcons.pattern/__pTransitionToPlaceLink/150.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/120.instance": "M2745.574784171236,1174.0035867708027L2953.9993528285277,1183.9999689606009"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons.pattern/__pTransitionToPlaceLink"
@@ -3826,7 +3826,7 @@
 			"0": {
 				"Condition": {
 					"type": "code",
-					"value": "srcOut= getAttr('tname', '19')\n#get pname\nsegName = getAttr('pname', '7')\nprint(srcOut)\nprint(segName)\nresult = (\"T_counter\" == srcOut) and (segName == getAttr('name', '3'))"
+					"value": "tname = getAttr('tname', '19')\nprint(\"entering R_07_src_seg\")\nsrcName = getAttr('name', '0')\nprint(\"src: \"+ srcName)\n#get pname\nsegName = getAttr('name', '3')\nprint(\"seg: \"+segName)\npSeg = getAttr('pname', '7')\nprint(\"pSeg: \"+pSeg)\nprint(srcName == (srcName+\"_out\"))\nprint(segName == pSeg)\nresult = (tname== (srcName+\"_out\")) and (segName == pSeg)"
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/LHS"
 			},
@@ -3878,7 +3878,7 @@
 				},
 				"__pMatchSubtypes": {
 					"type": "boolean",
-					"value": true
+					"value": false
 				},
 				"name": {
 					"type": "code",
