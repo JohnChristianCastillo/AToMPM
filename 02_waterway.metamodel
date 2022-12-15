@@ -1,0 +1,1128 @@
+{
+	"types": {
+		"HasIn": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": ""
+			}
+		],
+		"HasOut": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": ""
+			}
+		],
+		"HasWatercraft": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": ""
+			}
+		],
+		"Watercraft": [],
+		"Source": [
+			{
+				"name": "counter",
+				"type": "int",
+				"default": "0"
+			},
+			{
+				"name": "rate",
+				"type": "int",
+				"default": "1"
+			},
+			{
+				"name": "steps_passed",
+				"type": "int",
+				"default": "1"
+			},
+			{
+				"name": "name",
+				"type": "string",
+				"default": ""
+			}
+		],
+		"Segment": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": ""
+			}
+		],
+		"Sink": [
+			{
+				"name": "counter",
+				"type": "int",
+				"default": "0"
+			},
+			{
+				"name": "name",
+				"type": "string",
+				"default": ""
+			}
+		],
+		"Schedule": [],
+		"Schedulable": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": ""
+			}
+		],
+		"higher_priority_than": [],
+		"Confluence": [
+			{
+				"name": "mode",
+				"type": "int",
+				"default": "0"
+			},
+			{
+				"name": "name",
+				"type": "string",
+				"default": ""
+			}
+		],
+		"is_located_in": [],
+		"in1": [],
+		"out1": [],
+		"out0": [],
+		"CurrItem": [],
+		"curr_item": [],
+		"highest_priority": []
+	},
+	"constraints": [
+		{
+			"name": "noAbstractInstances",
+			"event": "pre-create",
+			"code": "false",
+			"targetType": "HasIn"
+		},
+		{
+			"name": "noAbstractInstances",
+			"event": "pre-create",
+			"code": "false",
+			"targetType": "HasOut"
+		},
+		{
+			"name": "noAbstractInstances",
+			"event": "pre-create",
+			"code": "false",
+			"targetType": "HasWatercraft"
+		},
+		{
+			"name": "c_no_neg_counter",
+			"event": "post-edit",
+			"code": "parseInt(getAttr('counter')) >= 0",
+			"targetType": "Source"
+		},
+		{
+			"name": "c_no_neg_rate",
+			"event": "post-edit",
+			"code": "parseInt(getAttr('rate')) >= 0",
+			"targetType": "Source"
+		},
+		{
+			"name": "c_neighbor_is_a_segment",
+			"event": "post-connect",
+			"code": "let link = getNeighbors('out', '*')[0];/*newline*/print(link);/*newline*/let neighbor = getNeighbors('out','*',link)[0];/*newline*/print(neighbor);/*newline*/getAllNodes(['/Formalisms/02_waterway/02_waterway/Segment']).includes(neighbor)",
+			"targetType": "Source"
+		},
+		{
+			"name": "c_no_neg_rate",
+			"event": "post-edit",
+			"code": "parseInt(getAttr('steps_passed')) >= 0",
+			"targetType": "Source"
+		},
+		{
+			"name": "c_no_looped_connection",
+			"event": "post-connect",
+			"code": "for(let link of getNeighbors('out', '*')){getNeighbors('out','*',link)[0]!== getNeighbors('in','*', link)[0]}",
+			"targetType": "Segment"
+		},
+		{
+			"name": "c_no_neg_counter",
+			"event": "post-edit",
+			"code": "getAttr('counter') >= 0",
+			"targetType": "Sink"
+		},
+		{
+			"name": "c_incoming_neighbor_is_not_a_confluence",
+			"event": "post-connect",
+			"code": "let ret = true;/*newline*/let out1LinkCount = getNeighbors('in', ['/Formalisms/02_waterway/02_waterway/out1']).length;/*newline*/ret = out1LinkCount === 0;/*newline*/let out0Link = getNeighbors('in', ['/Formalisms/02_waterway/02_waterway/out0'])[0];/*newline*/let out0Tail = getNeighbors('in', '*', out0Link)[0];/*newline*/let confluences = getAllNodes(['/Formalisms/02_waterway/02_waterway/Confluence']);/*newline*/ret = !confluences.includes(out0Tail);/*newline*/ret === true;/*newline*/",
+			"targetType": "Sink"
+		},
+		{
+			"name": "c_only_one_schedule_exists",
+			"event": "post-create",
+			"code": "getAllNodes(['/Formalisms/02_waterway/02_waterway/Schedule']).length === 1",
+			"targetType": "Schedule"
+		},
+		{
+			"name": "noAbstractInstances",
+			"event": "pre-create",
+			"code": "false",
+			"targetType": "Schedulable"
+		},
+		{
+			"name": "c_mode_is_zero_or_one",
+			"event": "post-edit",
+			"code": "getAttr('mode') === 0 || getAttr('mode') === 1",
+			"targetType": "Confluence"
+		},
+		{
+			"name": "c_no_looped_connection",
+			"event": "post-connect",
+			"code": "for(let link of getNeighbors('out', '*')){getNeighbors('out','*',link)[0]!== getNeighbors('in','*', link)[0]}",
+			"targetType": "Confluence"
+		},
+		{
+			"name": "c_only_one_currItem_exists",
+			"event": "post-create",
+			"code": "getAllNodes(['/Formalisms/02_waterway/02_waterway/CurrItem']).length === 1",
+			"targetType": "CurrItem"
+		},
+		{
+			"name": "GC_every_segment_in_schedule_at_most_once",
+			"event": "validate",
+			"targetType": "*",
+			"code": "//\n//idea: we follow the schedule relations\n//  Loop detection: if the node we are currently at is already in the set of nodes, we have a cycle\n//  not all nodes in schedule: if we end early then not all nodes are visited and thus not all nodes are in schedule,\n//                             this can be detected by checking whether the set's size is the same as all the abstract \n//                             segments instances\n\n\nlet totalNodes = getAllNodes([\"/Formalisms/02_waterway/02_waterway/Sink\"]).length;\ntotalNodes += getAllNodes([\"/Formalisms/02_waterway/02_waterway/Segment\"]).length;\ntotalNodes += getAllNodes([\"/Formalisms/02_waterway/02_waterway/Confluence\"]).length;\ntotalNodes += getAllNodes([\"/Formalisms/02_waterway/02_waterway/Source\"]).length;\n\nlet ret = 1;\nlet mySet = new Set();\n\nlet scheduleNode = getAllNodes([\"/Formalisms/02_waterway/02_waterway/Schedule\"])[0];\nprint(\"got:\" +scheduleNode)\nif(scheduleNode !== undefined){\n\tlet highestPriorityEdge = getNeighbors('out', \"*\", scheduleNode)\n\tif(highestPriorityEdge !== undefined){\n\t\tprint(\"got out\");\n\t\t//get the segment the edge points to\n\t\tlet currNode = getNeighbors('out', \"*\", highestPriorityEdge);\n\t\tif(currNode !== undefined){\n\t\t\tmySet.add(currNode[0])\n\t\t\tfor(let i = 0; i < totalNodes-1; ++i){\n\t\t\t   print(currNode);\n\t\t\t\t\t\t\t\t//direction       type                                node we're performing this on\n\t\t\t   nextEdge = getNeighbors('out', '/Formalisms/02_waterway/02_waterway/higher_priority_than', currNode)[0];\n\t\t\t   currNode = getNeighbors('out', \"*\", nextEdge);\n\t\t\t   print(mySet.has(currNode));\n\t\t\t   if(mySet.has(currNode[0]) === true){\n\t\t\t\t  ret = 0;\n\t\t\t\t  break;\n\t\t\t   } \n\t\t\t   mySet.add(currNode[0]);\n\t\t\t}\n\t\t}\n\t\telse{\n\t\t\tret = 0;\n\t\t}\n\t}\n\telse{\n\t\tret = 0;\n\t}\n}\nelse{\n\tret = 0;\n}\nprint(mySet)\nprint(\"ret: \" + ret +\"  setSize: \"+mySet.size+ \"  totalNodes: \" + totalNodes)\nmySet.size === totalNodes && ret === 1"
+		},
+		{
+			"name": "GC_no_watercraft_disappears",
+			"event": "validate",
+			"targetType": "*",
+			"code": "let sinks = getAllNodes([\"/Formalisms/01_waterway/01_waterway/Sink\"]);\nlet sources = getAllNodes([\"/Formalisms/02_waterway/02_waterway/Source\"]);\nlet ships = getAllNodes([\"/Formalisms/02_waterway/02_waterway/Watercraft\"]).length;\n\nlet consumedShips = 0;\nfor(let sinkID of sinks){\n    consumedShips += getAttr('counter', sinkID)\n}\n\nlet generatedWatercraft = 0;\nfor(let sourceID of sources){\n    generatedWatercraft += getAttr('counter', sourceID)\n}\n\nprint(\"generated: \"+ generatedWatercraft);\nprint(\"consumed: \"+ consumedShips);\nprint(\"free ships: \"+ ships);\n(generatedWatercraft-consumedShips-ships) === 0"
+		}
+	],
+	"actions": [
+		{
+			"name": "nameSource",
+			"event": "post-connect",
+			"code": "let link = getNeighbors('out', '*')[0];/*newline*/print(link);/*newline*/let neighbor = getNeighbors('in','*',link)[0];/*newline*/print(neighbor);/*newline*/setAttr('name', 'source_'+String(link));/*newline*/",
+			"targetType": "Source"
+		},
+		{
+			"name": "nameSegment",
+			"event": "post-connect",
+			"code": "let link = getNeighbors('out', '*')[0];/*newline*/print(link);/*newline*/let neighbor = getNeighbors('in','*',link)[0];/*newline*/print(neighbor);/*newline*/setAttr('name', 'segment_'+String(link));/*newline*/",
+			"targetType": "Segment"
+		},
+		{
+			"name": "nameSink",
+			"event": "post-connect",
+			"code": "let link = getNeighbors('out', '*')[0];/*newline*/print(link);/*newline*/let neighbor = getNeighbors('in','*',link)[0];/*newline*/print(neighbor);/*newline*/setAttr('name', 'sink_'+String(link));/*newline*/",
+			"targetType": "Sink"
+		},
+		{
+			"name": "nameConfluence",
+			"event": "post-connect",
+			"code": "let link = getNeighbors('out', '*')[0];/*newline*/print(link);/*newline*/let neighbor = getNeighbors('in','*',link)[0];/*newline*/print(neighbor);/*newline*/setAttr('name', 'confluence_'+String(link));/*newline*/",
+			"targetType": "Confluence"
+		},
+		{
+			"name": "nameSegment",
+			"event": "post-connect",
+			"code": "let link = getNeighbors('out', '*')[0];/*newline*/print(link);/*newline*/let neighbor = getNeighbors('in','*',link)[0];/*newline*/print(neighbor);/*newline*/setAttr('name', 'segment_'+String(link));/*newline*/",
+			"targetType": "Confluence"
+		}
+	],
+	"cardinalities": {
+		"HasIn": [
+			{
+				"dir": "in",
+				"type": "out0",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "is_located_in",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "out0",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "higher_priority_than",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "higher_priority_than",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "curr_item",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "highest_priority",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"HasOut": [
+			{
+				"dir": "out",
+				"type": "out0",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "higher_priority_than",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "higher_priority_than",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "curr_item",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "highest_priority",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"HasWatercraft": [
+			{
+				"dir": "in",
+				"type": "is_located_in",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "out0",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "higher_priority_than",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "higher_priority_than",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "curr_item",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "highest_priority",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"Watercraft": [
+			{
+				"dir": "out",
+				"type": "is_located_in",
+				"min": "1",
+				"max": "1"
+			}
+		],
+		"Source": [
+			{
+				"dir": "out",
+				"type": "out0",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "higher_priority_than",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "higher_priority_than",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "curr_item",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "highest_priority",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"Segment": [
+			{
+				"dir": "in",
+				"type": "out1",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "in1",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "out0",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "is_located_in",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "out0",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "higher_priority_than",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "higher_priority_than",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "curr_item",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "highest_priority",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"Sink": [
+			{
+				"dir": "in",
+				"type": "out0",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "is_located_in",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "out0",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "higher_priority_than",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "higher_priority_than",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "curr_item",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "highest_priority",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"Schedule": [
+			{
+				"dir": "out",
+				"type": "highest_priority",
+				"min": "1",
+				"max": "1"
+			}
+		],
+		"Schedulable": [
+			{
+				"dir": "in",
+				"type": "higher_priority_than",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "higher_priority_than",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "curr_item",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "highest_priority",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"higher_priority_than": [
+			{
+				"dir": "in",
+				"type": "Schedulable",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Schedulable",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "Source",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Source",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "Segment",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Segment",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "Sink",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Sink",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "Confluence",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Confluence",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"Confluence": [
+			{
+				"dir": "in",
+				"type": "in1",
+				"min": "1",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "out1",
+				"min": "1",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "out1",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "in1",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "out0",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "is_located_in",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "out0",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "higher_priority_than",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "higher_priority_than",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "curr_item",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "highest_priority",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"is_located_in": [
+			{
+				"dir": "in",
+				"type": "Watercraft",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "HasWatercraft",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Segment",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Confluence",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"in1": [
+			{
+				"dir": "in",
+				"type": "Segment",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Confluence",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "Confluence",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"out1": [
+			{
+				"dir": "in",
+				"type": "Confluence",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Segment",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Confluence",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"out0": [
+			{
+				"dir": "in",
+				"type": "HasOut",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "HasIn",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "Source",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "Segment",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Segment",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Sink",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "Confluence",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Confluence",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"CurrItem": [
+			{
+				"dir": "out",
+				"type": "curr_item",
+				"min": "1",
+				"max": "1"
+			}
+		],
+		"curr_item": [
+			{
+				"dir": "in",
+				"type": "CurrItem",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Schedulable",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Source",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Segment",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Sink",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Confluence",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"highest_priority": [
+			{
+				"dir": "in",
+				"type": "Schedule",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Schedulable",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Source",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Segment",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Sink",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Confluence",
+				"min": "0",
+				"max": "1"
+			}
+		]
+	},
+	"legalConnections": {
+		"HasIn": {
+			"HasIn": [
+				"out0"
+			],
+			"Segment": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Sink": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Confluence": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Schedulable": [
+				"higher_priority_than"
+			],
+			"Source": [
+				"higher_priority_than"
+			]
+		},
+		"HasOut": {
+			"HasIn": [
+				"out0"
+			],
+			"Segment": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Sink": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Confluence": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Schedulable": [
+				"higher_priority_than"
+			],
+			"Source": [
+				"higher_priority_than"
+			]
+		},
+		"HasWatercraft": {
+			"HasIn": [
+				"out0"
+			],
+			"Segment": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Sink": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Confluence": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Schedulable": [
+				"higher_priority_than"
+			],
+			"Source": [
+				"higher_priority_than"
+			]
+		},
+		"Watercraft": {
+			"HasWatercraft": [
+				"is_located_in"
+			],
+			"Segment": [
+				"is_located_in"
+			],
+			"Confluence": [
+				"is_located_in"
+			]
+		},
+		"Source": {
+			"HasIn": [
+				"out0"
+			],
+			"Segment": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Sink": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Confluence": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Schedulable": [
+				"higher_priority_than"
+			],
+			"Source": [
+				"higher_priority_than"
+			]
+		},
+		"Segment": {
+			"Confluence": [
+				"in1",
+				"out0",
+				"higher_priority_than"
+			],
+			"HasIn": [
+				"out0"
+			],
+			"Segment": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Sink": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Schedulable": [
+				"higher_priority_than"
+			],
+			"Source": [
+				"higher_priority_than"
+			]
+		},
+		"Sink": {
+			"HasIn": [
+				"out0"
+			],
+			"Segment": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Sink": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Confluence": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Schedulable": [
+				"higher_priority_than"
+			],
+			"Source": [
+				"higher_priority_than"
+			]
+		},
+		"Schedule": {
+			"Schedulable": [
+				"highest_priority"
+			],
+			"Source": [
+				"highest_priority"
+			],
+			"Segment": [
+				"highest_priority"
+			],
+			"Sink": [
+				"highest_priority"
+			],
+			"Confluence": [
+				"highest_priority"
+			]
+		},
+		"Schedulable": {
+			"Schedulable": [
+				"higher_priority_than"
+			],
+			"Source": [
+				"higher_priority_than"
+			],
+			"Segment": [
+				"higher_priority_than"
+			],
+			"Sink": [
+				"higher_priority_than"
+			],
+			"Confluence": [
+				"higher_priority_than"
+			]
+		},
+		"Confluence": {
+			"Segment": [
+				"out1",
+				"out0",
+				"higher_priority_than"
+			],
+			"Confluence": [
+				"out1",
+				"in1",
+				"out0",
+				"higher_priority_than"
+			],
+			"HasIn": [
+				"out0"
+			],
+			"Sink": [
+				"out0",
+				"higher_priority_than"
+			],
+			"Schedulable": [
+				"higher_priority_than"
+			],
+			"Source": [
+				"higher_priority_than"
+			]
+		},
+		"CurrItem": {
+			"Schedulable": [
+				"curr_item"
+			],
+			"Source": [
+				"curr_item"
+			],
+			"Segment": [
+				"curr_item"
+			],
+			"Sink": [
+				"curr_item"
+			],
+			"Confluence": [
+				"curr_item"
+			]
+		}
+	},
+	"connectorTypes": {
+		"higher_priority_than": "visual",
+		"is_located_in": "visual",
+		"in1": "visual",
+		"out1": "visual",
+		"out0": "visual",
+		"curr_item": "visual",
+		"highest_priority": "visual"
+	},
+	"types2parentTypes": {
+		"HasIn": [],
+		"HasOut": [],
+		"HasWatercraft": [],
+		"Watercraft": [],
+		"Source": [
+			"Schedulable",
+			"HasOut"
+		],
+		"Segment": [
+			"Schedulable",
+			"HasOut",
+			"HasWatercraft",
+			"HasIn"
+		],
+		"Sink": [
+			"Schedulable",
+			"HasIn"
+		],
+		"Schedule": [],
+		"Schedulable": [],
+		"higher_priority_than": [],
+		"Confluence": [
+			"Schedulable",
+			"HasOut",
+			"HasWatercraft",
+			"HasIn",
+			"Segment"
+		],
+		"is_located_in": [],
+		"in1": [],
+		"out1": [],
+		"out0": [],
+		"CurrItem": [],
+		"curr_item": [],
+		"GC_every_segment_in_schedule_at_most_once": [],
+		"GC_no_watercraft_disappears": [],
+		"highest_priority": []
+	}
+}
