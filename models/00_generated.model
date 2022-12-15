@@ -5368,8 +5368,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						3666,
-						1467
+						3703,
+						1672
 					]
 				},
 				"orientation": {
@@ -5636,8 +5636,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						3666,
-						1467
+						3706,
+						1285
 					]
 				},
 				"orientation": {
@@ -5921,8 +5921,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						3666,
-						1467
+						3686,
+						1376
 					]
 				},
 				"orientation": {
@@ -5958,8 +5958,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/66.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/222.instance": "M3666,1467L3666,1467",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/222.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/221.instance": "M3666,1467L3666,1467"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/66.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/222.instance": "M3666,1467L3686,1376",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/222.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/221.instance": "M3686,1376L3706,1285"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -5989,8 +5989,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						3666,
-						1467
+						3684.5,
+						1569.5
 					]
 				},
 				"orientation": {
@@ -6026,8 +6026,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/66.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/223.instance": "M3666,1467L3666,1467",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/223.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/220.instance": "M3666,1467L3666,1467"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/66.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/223.instance": "M3666,1467L3684.5,1569.5",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/223.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/220.instance": "M3684.5,1569.5L3703,1672"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -6040,8 +6040,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1733,
-						2575
+						2146,
+						2491
 					]
 				},
 				"orientation": {
@@ -6308,8 +6308,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1733,
-						2575
+						1555,
+						2578
 					]
 				},
 				"orientation": {
@@ -6593,8 +6593,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1733,
-						2575
+						1644,
+						2576.5
 					]
 				},
 				"orientation": {
@@ -6630,8 +6630,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/67.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/226.instance": "M1733,2575L1733,2575",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/226.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/225.instance": "M1733,2575L1733,2575"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/67.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/226.instance": "M1733,2575L1644,2576.5",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/226.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/225.instance": "M1644,2576.5L1555,2578"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -6661,8 +6661,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1733,
-						2575
+						1939.5,
+						2533
 					]
 				},
 				"orientation": {
@@ -6698,8 +6698,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/67.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/227.instance": "M1733,2575L1733,2575",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/227.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/224.instance": "M1733,2575L1733,2575"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/67.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/227.instance": "M1733,2575L1939.5,2533",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/227.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/224.instance": "M1939.5,2533L2146,2491"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -6712,8 +6712,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						564,
-						1613
+						729,
+						1988
 					]
 				},
 				"orientation": {
@@ -6980,8 +6980,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						564,
-						1613
+						684,
+						1435
 					]
 				},
 				"orientation": {
@@ -7265,8 +7265,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						564,
-						1613
+						624,
+						1524
 					]
 				},
 				"orientation": {
@@ -7302,8 +7302,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/63.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/230.instance": "M564,1613L564,1613",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/230.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/229.instance": "M564,1613L564,1613"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/63.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/230.instance": "M564,1613L624,1524",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/230.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/229.instance": "M624,1524L684,1435"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -7333,8 +7333,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						564,
-						1613
+						646.5,
+						1800.5
 					]
 				},
 				"orientation": {
@@ -7370,8 +7370,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/63.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/231.instance": "M564,1613L564,1613",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/231.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/228.instance": "M564,1613L564,1613"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/63.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/231.instance": "M564,1613L646.5,1800.5",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/231.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/228.instance": "M646.5,1800.5L729,1988"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -7384,8 +7384,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						3288,
-						1455
+						3302,
+						1674
 					]
 				},
 				"orientation": {
@@ -7652,8 +7652,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						3288,
-						1455
+						3303,
+						1305
 					]
 				},
 				"orientation": {
@@ -7937,8 +7937,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						3288,
-						1455
+						3295.5,
+						1380
 					]
 				},
 				"orientation": {
@@ -7974,8 +7974,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/65.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/234.instance": "M3288,1455L3288,1455",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/234.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/233.instance": "M3288,1455L3288,1455"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/65.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/234.instance": "M3288,1455L3295.5,1380",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/234.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/233.instance": "M3295.5,1380L3303,1305"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -8005,8 +8005,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						3288,
-						1455
+						3295,
+						1564.5
 					]
 				},
 				"orientation": {
@@ -8042,8 +8042,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/65.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/235.instance": "M3288,1455L3288,1455",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/235.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/232.instance": "M3288,1455L3288,1455"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/65.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/235.instance": "M3288,1455L3295,1564.5",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/235.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/232.instance": "M3295,1564.5L3302,1674"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -8056,8 +8056,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1160,
-						559
+						1633,
+						524
 					]
 				},
 				"orientation": {
@@ -8324,8 +8324,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1160,
-						559
+						1405,
+						543
 					]
 				},
 				"orientation": {
@@ -8609,8 +8609,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1160,
-						559
+						1282.5,
+						551
 					]
 				},
 				"orientation": {
@@ -8646,8 +8646,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/64.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/238.instance": "M1160,559L1160,559",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/238.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/237.instance": "M1160,559L1160,559"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/64.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/238.instance": "M1160,559L1282.5,551",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/238.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/237.instance": "M1282.5,551L1405,543"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -8677,8 +8677,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1160,
-						559
+						1396.5,
+						541.5
 					]
 				},
 				"orientation": {
@@ -8714,8 +8714,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/64.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/239.instance": "M1160,559L1160,559",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/239.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/236.instance": "M1160,559L1160,559"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/64.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/239.instance": "M1160,559L1396.5,541.5",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/239.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/236.instance": "M1396.5,541.5L1633,524"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -8728,8 +8728,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						2136,
+						1026
 					]
 				},
 				"orientation": {
@@ -8996,8 +8996,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						2493,
+						955
 					]
 				},
 				"orientation": {
@@ -9141,8 +9141,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						2500,
+						1119
 					]
 				},
 				"orientation": {
@@ -9286,8 +9286,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1632,
+						824
 					]
 				},
 				"orientation": {
@@ -9554,8 +9554,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1753,
+						996
 					]
 				},
 				"orientation": {
@@ -9699,8 +9699,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						2126,
+						892
 					]
 				},
 				"orientation": {
@@ -9967,8 +9967,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						2144,
+						1145
 					]
 				},
 				"orientation": {
@@ -10235,8 +10235,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1765,
+						1116
 					]
 				},
 				"orientation": {
@@ -10380,8 +10380,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						2146,
+						1275
 					]
 				},
 				"orientation": {
@@ -10665,8 +10665,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1925.5,
+						1273.5
 					]
 				},
 				"orientation": {
@@ -10702,8 +10702,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/249.instance": "M1715,1521L1715,1521",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/249.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/240.instance": "M1715,1521L1715,1521"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/249.instance": "M1715,1521L1925.5,1273.5",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/249.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/240.instance": "M1925.5,1273.5L2138,1084"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -10733,8 +10733,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						2314.5,
+						990.5
 					]
 				},
 				"orientation": {
@@ -10790,13 +10790,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;-12.822432592323366,0%",
+										"0;-15.301689607586354,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;-27.58667832978575"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -10839,13 +10839,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;177.71976255329355,98.0791438289658%",
+										"0;-39.42316575315863,-19.505936167665467%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;-11.248191356201287"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -10873,8 +10873,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/240.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/250.instance": "M1715,1521L1715,1521",
-						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/250.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/241.instance": "M1715,1521L1715,1521"
+						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/240.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/250.instance": "M2170,1066L2314.5,990.5",
+						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/250.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/241.instance": "M2314.5,990.5L2493,955"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink"
@@ -10904,8 +10904,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1676.5,
+						1197
 					]
 				},
 				"orientation": {
@@ -10941,8 +10941,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/251.instance": "M1715,1521L1715,1521",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/251.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/243.instance": "M1715,1521L1715,1521"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/251.instance": "M1715,1521L1676.5,1197",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/251.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/243.instance": "M1676.5,1197L1638,873"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -10972,8 +10972,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1956.5,
+						1219
 					]
 				},
 				"orientation": {
@@ -11029,13 +11029,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;-6.036082328788552,0%",
+										"0;-25.388227896124363,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;28.27398620892305"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -11078,13 +11078,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;193.3947536012679,88.06925112689191%",
+										"0;99.47722995492427,47.368840031696436%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;28.27398620892305"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -11112,8 +11112,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/247.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/252.instance": "M1715,1521L1715,1521",
-						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/252.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/248.instance": "M1715,1521L1715,1521"
+						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/247.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/252.instance": "M1765,1116L1956.5,1219",
+						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/252.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/248.instance": "M1956.5,1219L2148,1322"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink"
@@ -11143,8 +11143,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1740,
+						1318.5
 					]
 				},
 				"orientation": {
@@ -11180,8 +11180,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/253.instance": "M1715,1521L1715,1521",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/253.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/247.instance": "M1715,1521L1715,1521"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/253.instance": "M1715,1521L1740,1318.5",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/253.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/247.instance": "M1740,1318.5L1765,1116"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -11211,8 +11211,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1696,
+						928.5
 					]
 				},
 				"orientation": {
@@ -11268,13 +11268,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;10.35257108907581,0%",
+										"0;-17.96446153043439,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;49.82076607809265"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -11317,13 +11317,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;60.05611966338756,64.5180817826272%",
+										"0;64.91927672869497,76.4029915846901%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;49.82076607809265"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -11351,8 +11351,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/243.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/254.instance": "M1715,1521L1715,1521",
-						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/254.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/244.instance": "M1715,1521L1715,1521"
+						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/243.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/254.instance": "M1639,861L1696,928.5",
+						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/254.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/244.instance": "M1696,928.5L1753,996"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink"
@@ -11382,8 +11382,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1939.5,
+						944
 					]
 				},
 				"orientation": {
@@ -11439,13 +11439,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;-20.11146686045504,0%",
+										"0;-14.636300946720326,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;-15.579553398110441"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -11488,13 +11488,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;185.42569564479572,96.3258472334568%",
+										"0;-55.853033889338235,-26.857608880105914%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;-15.579553398110441"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -11522,8 +11522,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/244.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/255.instance": "M1715,1521L1715,1521",
-						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/255.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/245.instance": "M1715,1521L1715,1521"
+						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/244.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/255.instance": "M1753,996L1939.5,944",
+						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/255.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/245.instance": "M1939.5,944L2126,892"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink"
@@ -11553,8 +11553,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						2332,
+						1132
 					]
 				},
 				"orientation": {
@@ -11610,13 +11610,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;-27.265633966974747,0%",
+										"0;0.9953889918783716,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;-47.710203100174596"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -11659,13 +11659,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;158.04099627293772,67.28807910410023%",
+										"0;-179.69152316416398,-73.97509317655741%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;-47.710203100174596"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -11693,8 +11693,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/248.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/256.instance": "M1715,1521L1715,1521",
-						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/256.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/241.instance": "M1715,1521L1715,1521"
+						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/248.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/256.instance": "M2171,1309L2332,1132",
+						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/256.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/241.instance": "M2332,1132L2493,955"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink"
@@ -11724,8 +11724,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1701.5,
+						998.5
 					]
 				},
 				"orientation": {
@@ -11781,13 +11781,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;12.090685098832182,0%",
+										"0;-18.642220917136797,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;61.61208033645963"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -11830,13 +11830,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;67.01899533881965,47.5438731946925%",
+										"0;115.59824507221231,87.974883470494%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;61.61208033645963"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -11864,8 +11864,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/243.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/257.instance": "M1715,1521L1715,1521",
-						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/257.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/247.instance": "M1715,1521L1715,1521"
+						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/243.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/257.instance": "M1638,881L1701.5,998.5",
+						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/257.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/247.instance": "M1701.5,998.5L1765,1116"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink"
@@ -11895,8 +11895,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						2107.5,
+						1320
 					]
 				},
 				"orientation": {
@@ -11932,8 +11932,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/258.instance": "M1715,1521L1715,1521",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/258.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/242.instance": "M1715,1521L1715,1521"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/258.instance": "M1715,1521L2107.5,1320",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/258.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/242.instance": "M2107.5,1320L2500,1119"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -11963,8 +11963,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						2309.5,
+						923.5
 					]
 				},
 				"orientation": {
@@ -12020,13 +12020,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;-11.335814514613958,0%",
+										"0;-21.73115589845804,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;9.740577669271229"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -12069,13 +12069,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;184.1767497047258,98.5583895374757%",
+										"0;27.557664418500963,16.918742618149782%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;9.740577669271229"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -12103,8 +12103,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/245.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/259.instance": "M1715,1521L1715,1521",
-						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/259.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/241.instance": "M1715,1521L1715,1521"
+						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/245.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/259.instance": "M2126,892L2309.5,923.5",
+						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/259.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/241.instance": "M2309.5,923.5L2493,955"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink"
@@ -12134,8 +12134,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						2340.5,
+						1152.5
 					]
 				},
 				"orientation": {
@@ -12191,13 +12191,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;-16.729017927421864,0%",
+										"0;-16.41184371139593,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;-11.861499353316427"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -12240,13 +12240,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;158.6778135319555,97.86473257692447%",
+										"0;-37.41458930307704,-20.55466170110953%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;-11.861499353316427"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -12274,8 +12274,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/246.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/260.instance": "M1715,1521L1715,1521",
-						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/260.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/242.instance": "M1715,1521L1715,1521"
+						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/246.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/260.instance": "M2181,1186L2340.5,1152.5",
+						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/260.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/242.instance": "M2340.5,1152.5L2500,1119"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink"
@@ -12305,8 +12305,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1734,
+						1258.5
 					]
 				},
 				"orientation": {
@@ -12342,8 +12342,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/261.instance": "M1715,1521L1715,1521",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/261.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/244.instance": "M1715,1521L1715,1521"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/261.instance": "M1715,1521L1734,1258.5",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/261.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/244.instance": "M1734,1258.5L1753,996"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -12373,8 +12373,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1955.5,
+						1151
 					]
 				},
 				"orientation": {
@@ -12430,13 +12430,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;-11.66955310121375,0%",
+										"0;-21.970398225707868,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;10.410680159552692"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -12479,13 +12479,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;191.22280993487766,98.35378042442665%",
+										"0;31.06584878302283,18.0702483719419%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;10.410680159552692"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -12513,8 +12513,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/247.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/262.instance": "M1715,1521L1715,1521",
-						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/262.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/246.instance": "M1715,1521L1715,1521"
+						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/247.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/262.instance": "M1765,1116L1955.5,1151",
+						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/262.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/246.instance": "M1955.5,1151L2146,1186"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink"
@@ -12544,8 +12544,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1950.5,
+						1154
 					]
 				},
 				"orientation": {
@@ -12601,13 +12601,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;-3.569980315020075,0%",
+										"0;-27.828168778004283,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;38.659808254090095"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -12650,13 +12650,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;199.99878019021776,78.08688094430303%",
+										"0;154.87652476222797,62.46950475544243%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;38.659808254090095"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -12684,8 +12684,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/244.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/263.instance": "M1715,1521L1715,1521",
-						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/263.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/248.instance": "M1715,1521L1715,1521"
+						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/244.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/263.instance": "M1753,996L1950.5,1154",
+						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/263.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/248.instance": "M1950.5,1154L2148,1312"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink"
@@ -12715,8 +12715,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						2104,
+						1238
 					]
 				},
 				"orientation": {
@@ -12752,8 +12752,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/264.instance": "M1715,1521L1715,1521",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/264.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/241.instance": "M1715,1521L1715,1521"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/264.instance": "M1715,1521L2104,1238",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/264.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/241.instance": "M2104,1238L2493,955"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -12783,8 +12783,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1920.5,
+						1206.5
 					]
 				},
 				"orientation": {
@@ -12820,8 +12820,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/265.instance": "M1715,1521L1715,1521",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/265.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/245.instance": "M1715,1521L1715,1521"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/265.instance": "M1715,1521L1920.5,1206.5",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/265.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/245.instance": "M1920.5,1206.5L2126,892"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -12851,8 +12851,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1950.5,
+						1071
 					]
 				},
 				"orientation": {
@@ -12908,13 +12908,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;-18.19126798932234,0%",
+										"0;-15.652597315724734,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;-13.63583475483229"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -12957,13 +12957,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;193.60332468419938,99.96663196298016%",
+										"0;1.0013347214808164,2.5831171049865675%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;1.4801817205619863"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -12991,8 +12991,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/247.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/266.instance": "M1715,1521L1715,1521",
-						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/266.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/240.instance": "M1715,1521L1715,1521"
+						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/247.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/266.instance": "M1765,1116L1950.5,1071",
+						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/266.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/240.instance": "M1950.5,1071L2144,1076"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink"
@@ -13022,8 +13022,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						2318,
+						1072.5
 					]
 				},
 				"orientation": {
@@ -13079,13 +13079,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;12.701493248432598,0%",
+										"0;-16.881232561708657,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;14.332151899679987"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -13128,13 +13128,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;182.990170973163,96.88769737402552%",
+										"0;42.62449210503905,24.754274329077948%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;14.332151899679987"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -13162,8 +13162,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/240.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/267.instance": "M1715,1521L1715,1521",
-						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/267.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/242.instance": "M1715,1521L1715,1521"
+						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/240.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/267.instance": "M2173,1076L2318,1072.5",
+						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/267.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/242.instance": "M2318,1072.5L2500,1119"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink"
@@ -13193,8 +13193,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1931.5,
+						1429.5
 					]
 				},
 				"orientation": {
@@ -13230,8 +13230,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/268.instance": "M1715,1521L1715,1521",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/268.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/248.instance": "M1715,1521L1715,1521"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/268.instance": "M1715,1521L1931.5,1429.5",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/268.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/248.instance": "M1931.5,1429.5L2148,1338"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -13261,8 +13261,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1944.5,
+						1011
 					]
 				},
 				"orientation": {
@@ -13318,13 +13318,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;-5.044714406446474,0%",
+										"0;-19.954876303365836,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;4.478775268251663"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -13367,13 +13367,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;204.56128663286063,96.41599544069187%",
+										"0;52.14336018237236,26.53216582151717%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;15.386066651798878"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -13401,8 +13401,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/244.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/269.instance": "M1715,1521L1715,1521",
-						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/269.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/240.instance": "M1715,1521L1715,1521"
+						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/244.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/269.instance": "M1753,996L1944.5,1011",
+						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/269.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/240.instance": "M1944.5,1011L2148,1067"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink"
@@ -13432,8 +13432,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						2340,
+						1214
 					]
 				},
 				"orientation": {
@@ -13489,13 +13489,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;-22.716241902350248,0%",
+										"0;-9.190480388329888,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;-30.699722550814414"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -13538,13 +13538,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;157.95784498337844,85.98547438407344%",
+										"0;-98.43941897536297,-51.053875415543615%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;-30.699722550814414"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -13572,8 +13572,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/248.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/270.instance": "M1715,1521L1715,1521",
-						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/270.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/242.instance": "M1715,1521L1715,1521"
+						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/248.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/270.instance": "M2180,1309L2340,1214",
+						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/270.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/242.instance": "M2340,1214L2500,1119"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink"
@@ -13603,8 +13603,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1930.5,
+						1360
 					]
 				},
 				"orientation": {
@@ -13640,8 +13640,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/271.instance": "M1715,1521L1715,1521",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/271.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/246.instance": "M1715,1521L1715,1521"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/271.instance": "M1715,1521L1930.5,1360",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/271.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/246.instance": "M1930.5,1360L2146,1199"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -13654,8 +13654,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						4131,
-						1484
+						4118,
+						1699
 					]
 				},
 				"orientation": {
@@ -13922,8 +13922,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						4131,
-						1484
+						4097,
+						1307
 					]
 				},
 				"orientation": {
@@ -14207,8 +14207,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						4131,
-						1484
+						4114,
+						1395.5
 					]
 				},
 				"orientation": {
@@ -14244,8 +14244,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SinkIcon/111.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/274.instance": "M4131,1484L4131,1484",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/274.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/273.instance": "M4131,1484L4131,1484"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SinkIcon/111.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/274.instance": "M4131,1484L4114,1395.5",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/274.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/273.instance": "M4114,1395.5L4097,1307"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -14275,8 +14275,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						4131,
-						1484
+						4124.5,
+						1591.5
 					]
 				},
 				"orientation": {
@@ -14312,8 +14312,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SinkIcon/111.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/275.instance": "M4131,1484L4131,1484",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/275.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/272.instance": "M4131,1484L4131,1484"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SinkIcon/111.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/275.instance": "M4131,1484L4124.5,1591.5",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/275.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/272.instance": "M4124.5,1591.5L4118,1699"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -14326,8 +14326,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1757,
-						2947
+						2178,
+						2820
 					]
 				},
 				"orientation": {
@@ -14594,8 +14594,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1757,
-						2947
+						1557,
+						2923
 					]
 				},
 				"orientation": {
@@ -14879,8 +14879,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1757,
-						2947
+						1657,
+						2935
 					]
 				},
 				"orientation": {
@@ -14916,8 +14916,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SinkIcon/68.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/278.instance": "M1757,2947L1757,2947",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/278.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/277.instance": "M1757,2947L1757,2947"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SinkIcon/68.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/278.instance": "M1757,2947L1657,2935",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/278.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/277.instance": "M1657,2935L1557,2923"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -14947,8 +14947,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1757,
-						2947
+						1967.5,
+						2883.5
 					]
 				},
 				"orientation": {
@@ -14984,8 +14984,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SinkIcon/68.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/279.instance": "M1757,2947L1757,2947",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/279.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/276.instance": "M1757,2947L1757,2947"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SinkIcon/68.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/279.instance": "M1757,2947L1967.5,2883.5",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/279.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/276.instance": "M1967.5,2883.5L2178,2820"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -14998,8 +14998,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1175,
-						215
+						445,
+						284
 					]
 				},
 				"orientation": {
@@ -15143,8 +15143,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1175,
-						215
+						749,
+						311
 					]
 				},
 				"orientation": {
@@ -15288,8 +15288,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1175,
-						215
+						538,
+						550
 					]
 				},
 				"orientation": {
@@ -15556,8 +15556,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1175,
-						215
+						869,
+						205
 					]
 				},
 				"orientation": {
@@ -15824,8 +15824,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1175,
-						215
+						561,
+						286
 					]
 				},
 				"orientation": {
@@ -16109,8 +16109,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1175,
-						215
+						1022,
+						210
 					]
 				},
 				"orientation": {
@@ -16146,8 +16146,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/71.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/285.instance": "M1175,215L1175,215",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/285.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/283.instance": "M1175,215L1175,215"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/71.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/285.instance": "M1175,215L1022,210",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/285.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/283.instance": "M1022,210L869,205.00000000000003"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -16177,8 +16177,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1175,
-						215
+						503,
+						285
 					]
 				},
 				"orientation": {
@@ -16234,13 +16234,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;-4.289609934774148,0%",
+										"0;-19.576856911932396,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;0.98776039963981"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -16283,13 +16283,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;58.06895526900337,99.98514005489976%",
+										"0;-2.9994056021959636,1.7238817250844787%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;0.98776039963981"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -16317,8 +16317,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/280.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/286.instance": "M1175,215L1175,215",
-						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/286.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/284.instance": "M1175,215L1175,215"
+						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/280.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/286.instance": "M445,284L503,285",
+						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/286.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/284.instance": "M503,285L561,286"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink"
@@ -16348,8 +16348,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1175,
-						215
+						962,
+						263
 					]
 				},
 				"orientation": {
@@ -16385,8 +16385,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/71.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/287.instance": "M1175,215L1175,215",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/287.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/281.instance": "M1175,215L1175,215"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/71.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/287.instance": "M1175,215L962,263",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/287.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/281.instance": "M962,263L749,311"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -16416,8 +16416,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1175,
-						215
+						810,
+						249.5
 					]
 				},
 				"orientation": {
@@ -16453,8 +16453,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/71.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/288.instance": "M1175,215L1175,215",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/288.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/280.instance": "M1175,215L1175,215"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/71.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/288.instance": "M1175,215L810,249.5",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/288.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/280.instance": "M810,249.5L445,284"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -16484,8 +16484,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1175,
-						215
+						655,
+						298.5
 					]
 				},
 				"orientation": {
@@ -16541,13 +16541,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;-4.926474953311072,0%",
+										"0;-20.32677338177558,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;7.57467968315785"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -16590,13 +16590,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;94.52727334605663,99.12738905865707%",
+										"0;8.534904437653722,13.181833651417167%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;7.57467968315785"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -16624,8 +16624,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/284.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/289.instance": "M1175,215L1175,215",
-						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/289.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/281.instance": "M1175,215L1175,215"
+						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/284.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/289.instance": "M561,286L655,298.5",
+						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/289.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/281.instance": "M655,298.5L749,311"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink"
@@ -16655,8 +16655,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1175,
-						215
+						809,
+						258
 					]
 				},
 				"orientation": {
@@ -16712,13 +16712,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										"0;-17.694952146562628,0%",
+										"0;-10.387733764716074,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": 0
+									"value": "0;-41.455233544405125"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -16761,13 +16761,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;0,100%",
-										"0;-4,0%"
+										"0;57.35186131837065,74.94732117818856%",
+										"0;-55.99789284712753,-66.20346704073322%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;-41.45523354440511"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -16795,8 +16795,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/281.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/290.instance": "M1175,215L1175,215",
-						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/290.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/283.instance": "M1175,215L1175,215"
+						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/281.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/290.instance": "M749,311L809,258",
+						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/290.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/283.instance": "M809,258L869,205.00000000000003"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink"
@@ -16826,8 +16826,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1175,
-						215
+						856.5,
+						382.5
 					]
 				},
 				"orientation": {
@@ -16863,8 +16863,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/71.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/291.instance": "M1175,215L1175,215",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/291.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/282.instance": "M1175,215L1175,215"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/71.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/291.instance": "M1175,215L856.5,382.5",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/291.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/282.instance": "M856.5,382.5L538,550"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -16894,8 +16894,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1175,
-						215
+						868,
+						250.5
 					]
 				},
 				"orientation": {
@@ -16931,8 +16931,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/71.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/292.instance": "M1175,215L1175,215",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/292.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/284.instance": "M1175,215L1175,215"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/71.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/292.instance": "M1175,215L868,250.5",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/292.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/284.instance": "M868,250.5L561,286"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -16945,8 +16945,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						100,
-						1671
+						19,
+						1517
 					]
 				},
 				"orientation": {
@@ -17090,8 +17090,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						197,
-						1502
+						333,
+						1455
 					]
 				},
 				"orientation": {
@@ -17235,8 +17235,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						100,
-						1671
+						240,
+						2077
 					]
 				},
 				"orientation": {
@@ -17503,8 +17503,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						369,
-						1403
+						459,
+						1281
 					]
 				},
 				"orientation": {
@@ -17771,8 +17771,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						358,
-						1561
+						218,
+						1487
 					]
 				},
 				"orientation": {
@@ -18056,8 +18056,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						234.5,
-						1537
+						279.5,
+						1476
 					]
 				},
 				"orientation": {
@@ -18093,8 +18093,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/62.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/298.instance": "M100,1671L234.5,1537",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/298.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/296.instance": "M234.5,1537L369,1403"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/62.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/298.instance": "M100,1671L279.5,1476",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/298.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/296.instance": "M279.5,1476L459,1281"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -18124,8 +18124,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						229,
-						1616
+						118.5,
+						1502
 					]
 				},
 				"orientation": {
@@ -18181,13 +18181,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-17.936192185845584,0%",
-										"0;-13.55117825898219,0%"
+										"0;-10.84243530598944,0%",
+										"0;-18.085802458155285,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-23.091295171818082"
+									"value": "0;-8.572998363611388"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -18230,13 +18230,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;127.43121053793573,91.98810936649659%",
-										"0;-58.67952437465988,-39.21973655160706%"
+										"0;98.9037225674044,98.88267423877022%",
+										"0;-18.955306969550747,-14.906935814889977%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-23.091295171818082"
+									"value": "0;-8.572998363611388"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -18264,8 +18264,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/293.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/299.instance": "M100,1671L229,1616",
-						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/299.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/297.instance": "M229,1616L358,1561"
+						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/293.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/299.instance": "M19,1517L118.5,1502",
+						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/299.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/297.instance": "M118.5,1502L218,1487"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink"
@@ -18295,8 +18295,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						148.5,
-						1586.5
+						216.5,
+						1563
 					]
 				},
 				"orientation": {
@@ -18332,8 +18332,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/62.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/300.instance": "M100,1671L148.5,1586.5",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/300.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/294.instance": "M148.5,1586.5L197,1502"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/62.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/300.instance": "M100,1671L216.5,1563",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/300.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/294.instance": "M216.5,1563L333,1455"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -18363,8 +18363,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						100,
-						1671
+						59.5,
+						1594
 					]
 				},
 				"orientation": {
@@ -18400,8 +18400,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/62.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/301.instance": "M100,1671L100,1671",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/301.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/293.instance": "M100,1671L100,1671"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/62.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/301.instance": "M100,1671L59.5,1594",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/301.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/293.instance": "M59.5,1594L19,1517"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -18431,8 +18431,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						277.5,
-						1531.5
+						275.5,
+						1471
 					]
 				},
 				"orientation": {
@@ -18488,13 +18488,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-0.2893786462985872,0%",
-										"0;20.662073808340892,0%"
+										"0;-9.813369769608357,0%",
+										"0;-17.510183345726546,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-159.87415391412765"
+									"value": "0;-15.54980416970159"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -18537,13 +18537,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-81.87633313745056,-93.89391319048408%",
-										"0;-25.74424347238073,-34.40832843626438%"
+										"0;56.42769636942438,96.33977930952999%",
+										"0;-19.85359117238113,-26.807590764390955%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-159.87415391412765"
+									"value": "0;-15.54980416970159"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -18571,8 +18571,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/297.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/302.instance": "M358,1561L277.5,1531.5",
-						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/302.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/294.instance": "M277.5,1531.5L197,1502"
+						"/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/297.instance--/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/302.instance": "M218,1487L275.5,1471",
+						"/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink/302.instance--/Formalisms/PNS/PN.defaultIcons/TransitionIcon/294.instance": "M275.5,1471L333,1455"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/PlaceToTransitionLink"
@@ -18602,8 +18602,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						283,
-						1452.5
+						396,
+						1368
 					]
 				},
 				"orientation": {
@@ -18659,13 +18659,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-16.58646607216673,0%",
-										"0;-12.95257252272836,0%"
+										"0;-20.818411247389577,0%",
+										"0;-4.4982910302123855,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-29.923930025081216"
+									"value": "0;-54.090276920822326"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -18708,13 +18708,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;84.00460095043172,86.66884760751012%",
-										"0;-52.966753904300504,-49.88497623920641%"
+										"0;59.76023151382793,58.65098121518428%",
+										"0;-89.34603924860744,-80.99421215430212%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-29.923930025081216"
+									"value": "0;-54.090276920822326"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -18742,8 +18742,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/294.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/303.instance": "M197,1502L283,1452.5",
-						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/303.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/296.instance": "M283,1452.5L369,1403"
+						"/Formalisms/PNS/PN.defaultIcons/TransitionIcon/294.instance--/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/303.instance": "M333,1455L396,1368",
+						"/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink/303.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/296.instance": "M396,1368L459,1281"
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/TransitionToPlaceLink"
@@ -18773,8 +18773,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						100,
-						1671
+						170,
+						1874
 					]
 				},
 				"orientation": {
@@ -18810,8 +18810,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/62.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/304.instance": "M100,1671L100,1671",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/304.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/295.instance": "M100,1671L100,1671"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/62.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/304.instance": "M100,1671L170,1874",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/304.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/295.instance": "M170,1874L240,2077"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
@@ -18841,8 +18841,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						229,
-						1616
+						159,
+						1579
 					]
 				},
 				"orientation": {
@@ -18878,8 +18878,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/62.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/305.instance": "M100,1671L229,1616",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/305.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/297.instance": "M229,1616L358,1561"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/62.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/305.instance": "M100,1671L159,1579",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/305.instance--/Formalisms/PNS/PN.defaultIcons/CapacityConstrainedPlaceIcon/297.instance": "M159,1579L218,1487"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
