@@ -928,7 +928,7 @@
 							"124": {
 								"textContent": {
 									"type": "string",
-									"value": "name: segment_85"
+									"value": "name: segment_116"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -4496,7 +4496,7 @@
 							"122": {
 								"textContent": {
 									"type": "string",
-									"value": "name: sink_117"
+									"value": "name: sink_119"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -5359,6 +5359,242 @@
 					}
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/higher_priority_thanLink"
+			},
+			"119": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#00ff7f",
+						"stroke-dasharray": "",
+						"stroke-opacity": 0.7,
+						"stroke-width": 3
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "higher_priority_thanLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						3996,
+						1521.5
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"274": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l10,4 l-10,4 z"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#000000",
+										"opacity": 1,
+										"stroke-width": 1
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										"0;-185.09653919070297,-99.97042948371305%",
+										"0;-0.5011650800634015,-2.431713149603818%"
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": "0;-178.60659364688706"
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"$linkDecoratorInfo": {
+									"type": "map<string,double>",
+									"value": {
+										"xratio": 1,
+										"yoffset": -4
+									}
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/02_waterway/02_waterway/higher_priority_than/119.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SinkIcon/111.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/higher_priority_thanLink/119.instance": "M4181,1526L3996,1521.5",
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/higher_priority_thanLink/119.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/66.instance": "M3995.925243245052,1521.4981815924473L3811.000729335281,1517.000017740588"
+					}
+				},
+				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/higher_priority_thanLink"
+			},
+			"120": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#00ff7f",
+						"stroke-dasharray": "",
+						"stroke-opacity": 0.7,
+						"stroke-width": 3
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "higher_priority_thanLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						3571.3500000253293,
+						1502.0032028464343
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"274": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l10,4 l-10,4 z"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#000000",
+										"opacity": 1,
+										"stroke-width": 1
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										"0;-140.26365006574224,-99.97721172806791%",
+										"0;6.995865120833287,2.1347447344071324%"
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": "0;178.7767884461369"
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"$linkDecoratorInfo": {
+									"type": "map<string,double>",
+									"value": {
+										"xratio": 1,
+										"yoffset": -4
+									}
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/02_waterway/02_waterway/higher_priority_than/120.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/66.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/higher_priority_thanLink/120.instance": "M3712,1499L3571.3500000253293,1502.0032028464343",
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/higher_priority_thanLink/120.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/65.instance": "M3571.425320287823,1502.0015945846014L3431.000960170211,1504.999979498145"
+					}
+				},
+				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/higher_priority_thanLink"
 			}
 		},
 		"edges": [],
@@ -5413,7 +5649,7 @@
 			"66": {
 				"name": {
 					"type": "string",
-					"value": "segment_85"
+					"value": "segment_116"
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway/Segment"
 			},
@@ -5514,7 +5750,7 @@
 				},
 				"name": {
 					"type": "string",
-					"value": "sink_117"
+					"value": "sink_119"
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway/Sink"
 			},
@@ -5534,6 +5770,12 @@
 				"$type": "/Formalisms/02_waterway/02_waterway/out0"
 			},
 			"118": {
+				"$type": "/Formalisms/02_waterway/02_waterway/higher_priority_than"
+			},
+			"119": {
+				"$type": "/Formalisms/02_waterway/02_waterway/higher_priority_than"
+			},
+			"120": {
 				"$type": "/Formalisms/02_waterway/02_waterway/higher_priority_than"
 			}
 		},
@@ -5681,6 +5923,22 @@
 			{
 				"src": "118",
 				"dest": "62"
+			},
+			{
+				"src": "111",
+				"dest": "119"
+			},
+			{
+				"src": "119",
+				"dest": "66"
+			},
+			{
+				"src": "66",
+				"dest": "120"
+			},
+			{
+				"src": "120",
+				"dest": "65"
 			}
 		],
 		"metamodels": [
