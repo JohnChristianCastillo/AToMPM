@@ -3826,7 +3826,7 @@
 			"1": {
 				"Action": {
 					"type": "code",
-					"value": "setAttr('pname', getAttr('name', '0')+\"_rate\",'1')\nsetAttr('pname', getAttr('name', '0')+\"_counter\",'3')\nsetAttr('tname', getAttr('name', '0')+\"_out\",'6')\nsetAttr('weight', getAttr('rate', '0'),'7')\n\n"
+					"value": "#first one is the rate\nsetAttr('pname', getAttr('name', '0'),'1')\nsetAttr('pname', getAttr('name', '0')+\"_counter\",'3')\nsetAttr('tname', getAttr('name', '0')+\"_out\",'6')\nsetAttr('weight', getAttr('rate', '0'),'7')\n\n"
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/RHS"
 			},
