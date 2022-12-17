@@ -2158,8 +2158,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1715,
-						1521
+						1163,
+						1662
 					]
 				},
 				"orientation": {
@@ -2779,8 +2779,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1570.5,
-						1066
+						1294.5,
+						1136.5
 					]
 				},
 				"orientation": {
@@ -2832,8 +2832,8 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-262.17157777612465,55.470047424257686%",
-										"0;-383.2185365435854,83.20501089928781%"
+										"0;13.82842222387535,55.470047424257686%",
+										"0;-453.7185365435854,83.20501089928781%"
 									]
 								},
 								"orientation": {
@@ -2866,8 +2866,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/higher_priority_thanLink/99.instance": "M1898,1540L1570.5,1066",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/higher_priority_thanLink/99.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/64.instance": "M1570.5,1066L1243,592L1305.000221787904,685.0002653533849"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/higher_priority_thanLink/99.instance": "M1346,1681L1294.5,1136.5",
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/higher_priority_thanLink/99.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/64.instance": "M1294.5,1136.5L1243,592L1305.000221787904,685.0002653533849"
 					}
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/higher_priority_thanLink"
@@ -2950,13 +2950,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;82.64123966425677,41.406119763034596%",
-										"0;-286.15605749611154,91.0249045380946%"
+										"0;-470.25345904031815,-72.7059581813328%",
+										"0;-140.5915743783371,68.65743692371778%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;65.53979046890021"
+									"value": "0;136.6404515025954"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -2985,7 +2985,7 @@
 					"type": "map<string,list<string>>",
 					"value": {
 						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/67.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/higher_priority_thanLink/101.instance": "M1863,2599L1821,2048.5",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/higher_priority_thanLink/101.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance": "M1821,2048.5L1779,1498L1900.000243482733,1764.0001872944097"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/higher_priority_thanLink/101.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance": "M1821,2048.5L1779,1498L1348.0002434827331,1905.0001872944097"
 					}
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/higher_priority_thanLink"
@@ -3186,8 +3186,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1223.4996100521232,
-						1709.9999830947454
+						947.4996100521232,
+						1780.4999830947454
 					]
 				},
 				"orientation": {
@@ -3243,13 +3243,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-65.92988286618902,0%",
-										"0;-10.30283412350559,0%"
+										"0;-27.150843675509577,0%",
+										"0;-19.074288663744937,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-1.91478333498237"
+									"value": "0;12.958632722516342"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -3292,13 +3292,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;508.365957838932,99.94416280450392%",
-										"0;-20.997783417434903,-3.3413053297797966%"
+										"0;233.39660007320106,97.45322243930278%",
+										"0;49.601854197173,22.424750526946216%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-1.9147833349823953"
+									"value": "0;12.958632722516283"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -3326,8 +3326,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/63.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/out0Link/103.instance": "M715.0000000000001,1727L1223.4996100521232,1709.9999830947454",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/out0Link/103.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance": "M1223.4996100521232,1709.9999830947454L1731.9992201042464,1692.9999661894906"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/63.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/out0Link/103.instance": "M715.0000000000001,1727L947.4996100521232,1780.4999830947454",
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/out0Link/103.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance": "M947.4996100521232,1780.4999830947454L1179.9992201042464,1833.9999661894906"
 					}
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/out0Link"
@@ -3528,8 +3528,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1503.9999837875912,
-						1111.999651433207
+						1227.9999837875912,
+						1182.499651433207
 					]
 				},
 				"orientation": {
@@ -3585,13 +3585,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;4.785703675922377,0%",
-										"0;-14.944909662734517,0%"
+										"0;12.121607983754757,0%",
+										"0;-9.5716068868403,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;54.95332225530417"
+									"value": "0;87.67454581818316"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -3634,13 +3634,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;299.27472175183766,57.424359299442074%",
-										"0;419.70267706122945,81.86844910616409%"
+										"0;23.996689657951492,4.057568994128389%",
+										"0;492.33734867344197,99.91764675900792%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;54.95332225530418"
+									"value": "0;87.67454581818316"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -3668,8 +3668,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/64.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/in1Link/105.instance": "M1208,690L1503.9999837875912,1111.999651433207",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/in1Link/105.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance": "M1503.9999837875912,1111.999651433207L1799.9999675751824,1533.9993028664142"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/64.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/in1Link/105.instance": "M1208,690L1227.9999837875912,1182.499651433207",
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/in1Link/105.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance": "M1227.9999837875912,1182.499651433207L1247.9999675751824,1674.9993028664142"
 					}
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/in1Link"
@@ -3699,8 +3699,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1792.9999882505053,
-						2176.9996827636405
+						1516.9999882505053,
+						2247.4996827636405
 					]
 				},
 				"orientation": {
@@ -3756,13 +3756,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;13.014766640905918,0%",
-										"0;-53.733107674769144,0%"
+										"0;-25.199731771697998,0%",
+										"0;-52.4745189491191,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;90.54827026275268"
+									"value": "0;51.94848778567271"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -3805,13 +3805,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-0.00019488426119096403,-0.9568975238796964%",
-										"0;418.03795866459586,99.99542163083665%"
+										"0;275.149815930454,61.63696935803371%",
+										"0;345.0342039893194,78.74569199871708%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;90.54827026275268"
+									"value": "0;51.94848778567271"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -3839,8 +3839,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/out1Link/106.instance": "M1797,1759L1792.9999882505053,2176.9996827636405",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/out1Link/106.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/67.instance": "M1792.9999882505053,2176.9996827636405L1788.9999765010107,2594.999365527281"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/out1Link/106.instance": "M1245,1900L1516.9999882505053,2247.4996827636405",
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/out1Link/106.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/67.instance": "M1516.9999882505053,2247.4996827636405L1788.9999765010107,2594.999365527281"
 					}
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/out1Link"
@@ -4041,8 +4041,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						2643.999577067835,
-						1626.5
+						2367.999577067835,
+						1697
 					]
 				},
 				"orientation": {
@@ -4098,13 +4098,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-89.1878357972505,0%",
-										"0;-4.91772222458826,0%"
+										"0;-125.34565289676493,0%",
+										"0;4.230980318857064,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-4.888403956084941"
+									"value": "0;-7.6532792827054905"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -4147,13 +4147,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;683.6587159801743,99.63625632431284%",
-										"0;-62.48545025297244,-8.521527191520825%"
+										"0;959.4668648150782,99.109212663867%",
+										"0;-132.9643685065546,-13.317806318924482%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-4.888403956084941"
+									"value": "0;-7.6532792827054905"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -4181,8 +4181,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/out0Link/108.instance": "M1960,1685L2643.999577067835,1626.5",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/out0Link/108.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/65.instance": "M2643.999577067835,1626.5L3327.9991541356703,1568"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/out0Link/108.instance": "M1408,1826L2367.999577067835,1697",
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/out0Link/108.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/65.instance": "M2367.999577067835,1697L3327.9991541356703,1568"
 					}
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/out0Link"
@@ -4557,8 +4557,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						3745,
-						577
+						4513,
+						766
 					]
 				},
 				"orientation": {
@@ -4698,8 +4698,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						4018,
-						797
+						4786,
+						986
 					]
 				},
 				"orientation": {
@@ -4860,8 +4860,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						4175.000333490006,
-						1214.4999036980735
+						4559.000333490006,
+						1308.9999036980735
 					]
 				},
 				"orientation": {
@@ -4913,13 +4913,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;100.80811774371432,30.626572176087162%",
-										"0;300.27484081102966,95.19460634270686%"
+										"0;-284.65976728061105,-81.1051462467594%",
+										"0;210.2441095479437,58.49748073457327%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;72.16567103053426"
+									"value": "0;144.19878971384176"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -4947,8 +4947,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/ScheduleIcon/113.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/highest_priorityLink/114.instance": "M4078,913L4175.000333490006,1214.4999036980735",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/highest_priorityLink/114.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SinkIcon/111.instance": "M4175.000333490006,1214.4999036980735L4272.000666980011,1515.9998073961467"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/ScheduleIcon/113.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/highest_priorityLink/114.instance": "M4846,1102L4559.000333490006,1308.9999036980735",
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/highest_priorityLink/114.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SinkIcon/111.instance": "M4559.000333490006,1308.9999036980735L4272.000666980011,1515.9998073961467"
 					}
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/highest_priorityLink"
@@ -4978,8 +4978,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						4062.5001788350687,
-						1107.9997126773064
+						4446.500178835069,
+						1202.4997126773064
 					]
 				},
 				"orientation": {
@@ -5031,13 +5031,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;185.8547048253581,39.35207161430608%",
-										"0;413.85154694816174,91.9315748786157%"
+										"0;-198.7531147628306,-53.73830210475583%",
+										"0;326.7987768456867,84.3338300262593%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;66.82625319396033"
+									"value": "0;122.50566681854885"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -5065,8 +5065,8 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/CurrItemIcon/112.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/curr_itemLink/115.instance": "M3884,691L4062.5001788350687,1107.9997126773064",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/curr_itemLink/115.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SinkIcon/111.instance": "M4062.5001788350687,1107.9997126773064L4241.000357670137,1524.9994253546126"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/CurrItemIcon/112.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/curr_itemLink/115.instance": "M4652,880L4446.500178835069,1202.4997126773064",
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/curr_itemLink/115.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SinkIcon/111.instance": "M4446.500178835069,1202.4997126773064L4241.000357670137,1524.9994253546126"
 					}
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/curr_itemLink"

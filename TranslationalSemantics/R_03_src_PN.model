@@ -4154,7 +4154,7 @@
 				},
 				"pname": {
 					"type": "code",
-					"value": "result = \"currItem\""
+					"value": "result = \"currentItem\""
 				},
 				"$type": "/Formalisms/PNS/PN.pattern/__pCapacityConstrainedPlace"
 			},
