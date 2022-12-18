@@ -6403,7 +6403,7 @@
 			"1": {
 				"Action": {
 					"type": "code",
-					"value": "setAttr('tname', \"skip_turn\", '19')"
+					"value": "setAttr('tname', \"skip_\"+getAttr('tname', '14'), '19')"
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/RHS"
 			},

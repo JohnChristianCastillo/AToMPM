@@ -4,97 +4,6 @@
 			"0": {
 				"typename": {
 					"type": "string",
-					"value": "StartIcon"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						1077,
-						309
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "({position:getAttr(\"position\")})"
-				},
-				"parser": {
-					"type": "code",
-					"value": "({position:getAttr(\"position\")})"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"21": {
-								"r": {
-									"type": "double",
-									"value": 10
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"stroke-dasharray": "",
-										"fill": "#000000",
-										"fill-opacity": 0.75,
-										"font-size": "20px",
-										"stroke-width": 0,
-										"arrow-start": "none",
-										"arrow-end": "none"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Circle",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										3,
-										2
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								}
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/__Transformations__/Transformation/MoTif/Start/0.instance"
-				},
-				"$type": "/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/StartIcon"
-			},
-			"1": {
-				"typename": {
-					"type": "string",
 					"value": "EndSuccessIcon"
 				},
 				"position": {
@@ -265,11 +174,11 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/__Transformations__/Transformation/MoTif/EndSuccess/1.instance"
+					"value": "/Formalisms/__Transformations__/Transformation/MoTif/EndSuccess/0.instance"
 				},
 				"$type": "/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/EndSuccessIcon"
 			},
-			"3": {
+			"1": {
 				"typename": {
 					"type": "string",
 					"value": "FRuleIcon"
@@ -865,11 +774,102 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/__Transformations__/Transformation/MoTif/FRule/3.instance"
+					"value": "/Formalisms/__Transformations__/Transformation/MoTif/FRule/1.instance"
 				},
 				"$type": "/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/FRuleIcon"
 			},
-			"4": {
+			"2": {
+				"typename": {
+					"type": "string",
+					"value": "StartIcon"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						1077,
+						309
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "({position:getAttr(\"position\")})"
+				},
+				"parser": {
+					"type": "code",
+					"value": "({position:getAttr(\"position\")})"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"21": {
+								"r": {
+									"type": "double",
+									"value": 10
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#000000",
+										"fill-opacity": 0.75,
+										"font-size": "20px",
+										"stroke-width": 0,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Circle",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										3,
+										2
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/__Transformations__/Transformation/MoTif/Start/2.instance"
+				},
+				"$type": "/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/StartIcon"
+			},
+			"3": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -2563,18 +2563,18 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/__Transformations__/Transformation/MoTif/initial/4.instance"
+					"value": "/Formalisms/__Transformations__/Transformation/MoTif/initial/3.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/StartIcon/0.instance--/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/initialLink/4.instance": "M1092,329L1130.5769999543704,393.62899992355557",
-						"/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/initialLink/4.instance--/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/FRuleIcon/3.instance": "M1130.576794621401,393.62865592416546L1168.9995896983703,457.9993126115556"
+						"/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/StartIcon/2.instance--/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/initialLink/3.instance": "M1092,329L1130.5769999543704,393.62899992355557",
+						"/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/initialLink/3.instance--/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/FRuleIcon/1.instance": "M1130.576794621401,393.62865592416546L1168.9995896983703,457.9993126115556"
 					}
 				},
 				"$type": "/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/initialLink"
 			},
-			"5": {
+			"4": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -4268,13 +4268,13 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/__Transformations__/Transformation/MoTif/success/5.instance"
+					"value": "/Formalisms/__Transformations__/Transformation/MoTif/success/4.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/FRuleIcon/3.instance--/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/successLink/5.instance": "M1119,510L1186.5,551.5",
-						"/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/successLink/5.instance--/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/EndSuccessIcon/1.instance": "M1186.627840021795,551.5785979393257L1253.9993516131583,592.9996013621641"
+						"/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/FRuleIcon/1.instance--/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/successLink/4.instance": "M1119,510L1186.5,551.5",
+						"/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/successLink/4.instance--/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/EndSuccessIcon/0.instance": "M1186.627840021795,551.5785979393257L1253.9993516131583,592.9996013621641"
 					}
 				},
 				"$type": "/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons/successLink"
@@ -4291,23 +4291,13 @@
 				"position": {
 					"type": "list<int>",
 					"value": [
-						1077,
-						309
-					]
-				},
-				"$type": "/Formalisms/__Transformations__/Transformation/MoTif/Start"
-			},
-			"1": {
-				"position": {
-					"type": "list<int>",
-					"value": [
 						1243,
 						582
 					]
 				},
 				"$type": "/Formalisms/__Transformations__/Transformation/MoTif/EndSuccess"
 			},
-			"3": {
+			"1": {
 				"maxIterations": {
 					"type": "int",
 					"value": 1000
@@ -4333,29 +4323,39 @@
 				},
 				"$type": "/Formalisms/__Transformations__/Transformation/MoTif/FRule"
 			},
-			"4": {
+			"2": {
+				"position": {
+					"type": "list<int>",
+					"value": [
+						1077,
+						309
+					]
+				},
+				"$type": "/Formalisms/__Transformations__/Transformation/MoTif/Start"
+			},
+			"3": {
 				"$type": "/Formalisms/__Transformations__/Transformation/MoTif/initial"
 			},
-			"5": {
+			"4": {
 				"$type": "/Formalisms/__Transformations__/Transformation/MoTif/success"
 			}
 		},
 		"edges": [
 			{
-				"src": "0",
-				"dest": "4"
-			},
-			{
-				"src": "4",
+				"src": "2",
 				"dest": "3"
 			},
 			{
 				"src": "3",
-				"dest": "5"
+				"dest": "1"
 			},
 			{
-				"src": "5",
-				"dest": "1"
+				"src": "1",
+				"dest": "4"
+			},
+			{
+				"src": "4",
+				"dest": "0"
 			}
 		],
 		"metamodels": [

@@ -1,16 +1,16 @@
 {
 	"csm": {
 		"nodes": {
-			"0": {
+			"212": {
 				"typename": {
 					"type": "string",
-					"value": "LHSIcon"
+					"value": "PlaceIcon"
 				},
 				"position": {
 					"type": "list<double>",
 					"value": [
-						389.9555555555556,
-						242
+						1472,
+						385
 					]
 				},
 				"orientation": {
@@ -20,34 +20,35 @@
 				"scale": {
 					"type": "list<double>",
 					"value": [
-						1.0889876543209875,
-						1.016
+						1,
+						1
 					]
 				},
 				"mapper": {
 					"type": "code",
-					"value": ""
+					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 				},
 				"parser": {
 					"type": "code",
-					"value": ""
+					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 				},
 				"$contents": {
 					"type": "map<string,*>",
 					"value": {
 						"nodes": {
-							"4": {
-								"segments": {
-									"type": "string",
-									"value": "m0,0 l350,0 l100,250 l-100,250 l-350,0z"
+							"1": {
+								"r": {
+									"type": "double",
+									"value": 20
 								},
 								"style": {
 									"type": "map<string,string>",
 									"value": {
 										"stroke": "#000000",
 										"stroke-dasharray": "",
-										"fill": "#ffffff",
+										"fill": "yellow",
 										"fill-opacity": 0.75,
+										"font-size": "20px",
 										"stroke-width": 2,
 										"arrow-start": "none",
 										"arrow-end": "none"
@@ -55,18 +56,18 @@
 								},
 								"mapper": {
 									"type": "code",
-									"value": ""
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 								},
 								"parser": {
 									"type": "code",
-									"value": ""
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Circle",
 								"position": {
 									"type": "list<double>",
 									"value": [
-										1,
-										0
+										2,
+										2
 									]
 								},
 								"orientation": {
@@ -80,18 +81,455 @@
 										1
 									]
 								}
+							},
+							"2": {
+								"textContent": {
+									"type": "string",
+									"value": "#"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"font-size": "15px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										18,
+										13
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"3": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										11.078337380408811,
+										13.618963631145192
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							},
+							"4": {
+								"textContent": {
+									"type": "string",
+									"value": "Name"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"font-size": "15px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										2,
+										45
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"__pLabelText": {
+								"position": {
+									"type": "list<double>",
+									"value": [
+										0,
+										0
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"textContent": {
+									"type": "string",
+									"value": "1"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#6000ff",
+										"fill": "#6000ff",
+										"font-size": "15px",
+										"opacity": "1"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "({'textContent':getAttr('__pLabel')})"
+								},
+								"parser": {
+									"type": "code",
+									"value": "({'__pLabel':getAttr('textContent')})"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
 							}
 						},
-						"edges": []
+						"edges": [
+							{
+								"src": "1",
+								"dest": "3"
+							},
+							{
+								"src": "3",
+								"dest": "2"
+							}
+						]
 					}
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/LHS/0.instance"
+					"value": "/Formalisms/PNS/PN.pattern/__pPlace/212.instance"
 				},
-				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/LHSIcon"
+				"$type": "/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon"
 			},
-			"1": {
+			"213": {
+				"typename": {
+					"type": "string",
+					"value": "PlaceIcon"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						592,
+						341
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"1": {
+								"r": {
+									"type": "double",
+									"value": 20
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "yellow",
+										"fill-opacity": 0.75,
+										"font-size": "20px",
+										"stroke-width": 2,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Circle",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										2,
+										2
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"2": {
+								"textContent": {
+									"type": "string",
+									"value": "#"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"font-size": "15px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										18,
+										13
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"3": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										11.078337380408811,
+										13.618963631145192
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"stroke-width": 1
+									}
+								}
+							},
+							"4": {
+								"textContent": {
+									"type": "string",
+									"value": "Name"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"font-size": "15px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										2,
+										45
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"__pLabelText": {
+								"position": {
+									"type": "list<double>",
+									"value": [
+										0,
+										0
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"textContent": {
+									"type": "string",
+									"value": "1"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#6000ff",
+										"fill": "#6000ff",
+										"font-size": "15px",
+										"opacity": "1"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "({'textContent':getAttr('__pLabel')})"
+								},
+								"parser": {
+									"type": "code",
+									"value": "({'__pLabel':getAttr('textContent')})"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
+							}
+						},
+						"edges": [
+							{
+								"src": "1",
+								"dest": "3"
+							},
+							{
+								"src": "3",
+								"dest": "2"
+							}
+						]
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/PNS/PN.pattern/__pPlace/213.instance"
+				},
+				"$type": "/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon"
+			},
+			"215": {
 				"typename": {
 					"type": "string",
 					"value": "RHSIcon"
@@ -177,20 +615,20 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/RHS/1.instance"
+					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/RHS/215.instance"
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon"
 			},
-			"58": {
+			"216": {
 				"typename": {
 					"type": "string",
-					"value": "PlaceIcon"
+					"value": "LHSIcon"
 				},
 				"position": {
 					"type": "list<double>",
 					"value": [
-						485,
-						431
+						389.9555555555556,
+						242
 					]
 				},
 				"orientation": {
@@ -200,35 +638,34 @@
 				"scale": {
 					"type": "list<double>",
 					"value": [
-						1,
-						1
+						1.0889876543209875,
+						1.016
 					]
 				},
 				"mapper": {
 					"type": "code",
-					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+					"value": ""
 				},
 				"parser": {
 					"type": "code",
-					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+					"value": ""
 				},
 				"$contents": {
 					"type": "map<string,*>",
 					"value": {
 						"nodes": {
-							"1": {
-								"r": {
-									"type": "double",
-									"value": 20
+							"4": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l350,0 l100,250 l-100,250 l-350,0z"
 								},
 								"style": {
 									"type": "map<string,string>",
 									"value": {
 										"stroke": "#000000",
 										"stroke-dasharray": "",
-										"fill": "yellow",
+										"fill": "#ffffff",
 										"fill-opacity": 0.75,
-										"font-size": "20px",
 										"stroke-width": 2,
 										"arrow-start": "none",
 										"arrow-end": "none"
@@ -236,159 +673,17 @@
 								},
 								"mapper": {
 									"type": "code",
-									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+									"value": ""
 								},
 								"parser": {
 									"type": "code",
-									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+									"value": ""
 								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Circle",
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
 								"position": {
-									"type": "list<double>",
-									"value": [
-										2,
-										2
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
 									"type": "list<double>",
 									"value": [
 										1,
-										1
-									]
-								}
-							},
-							"2": {
-								"textContent": {
-									"type": "string",
-									"value": "#"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"stroke-dasharray": "",
-										"fill": "#ffffff",
-										"fill-opacity": 0.75,
-										"font-size": "15px",
-										"stroke-width": 1,
-										"arrow-start": "none",
-										"arrow-end": "none"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										18,
-										13
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								}
-							},
-							"3": {
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										11.078337380408811,
-										13.618963631145192
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"link-style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#00ffff",
-										"stroke-dasharray": "",
-										"stroke-opacity": 0.1,
-										"stroke-width": 1
-									}
-								}
-							},
-							"4": {
-								"textContent": {
-									"type": "string",
-									"value": "Name"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"stroke-dasharray": "",
-										"fill": "#ffffff",
-										"fill-opacity": 0.75,
-										"font-size": "15px",
-										"stroke-width": 1,
-										"arrow-start": "none",
-										"arrow-end": "none"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										2,
-										45
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								}
-							},
-							"__pLabelText": {
-								"position": {
-									"type": "list<double>",
-									"value": [
-										0,
 										0
 									]
 								},
@@ -402,50 +697,19 @@
 										1,
 										1
 									]
-								},
-								"textContent": {
-									"type": "string",
-									"value": "14"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#6000ff",
-										"fill": "#6000ff",
-										"font-size": "15px",
-										"opacity": "1"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "({'textContent':getAttr('__pLabel')})"
-								},
-								"parser": {
-									"type": "code",
-									"value": "({'__pLabel':getAttr('textContent')})"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
+								}
 							}
 						},
-						"edges": [
-							{
-								"src": "1",
-								"dest": "3"
-							},
-							{
-								"src": "3",
-								"dest": "2"
-							}
-						]
+						"edges": []
 					}
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/PNS/PN.pattern/__pPlace/58.instance"
+					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/LHS/216.instance"
 				},
-				"$type": "/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon"
+				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/LHSIcon"
 			},
-			"59": {
+			"217": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -470,8 +734,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						458.71345599497386,
-						355.8434712683571
+						502.1082091049383,
+						306.921875
 					]
 				},
 				"orientation": {
@@ -502,27 +766,95 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents/59.instance"
+					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents/217.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/LHSIcon/0.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/59.instance": "M411.04444444444437,250.00000000000003L458.71345599497386,355.8434712683571",
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/59.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/58.instance": "M458.71345599497386,355.8434712683571L506.38246754550323,461.68694253671424"
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/LHSIcon/216.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/217.instance": "M391.04454320987657,242L502.1082091049383,306.921875",
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/217.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/213.instance": "M502.23765359736126,306.9975413224538L613.1714716411168,371.8435142179845"
 					}
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
 			},
-			"75": {
+			"221": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 0,
+						"stroke-width": 0
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
 				"typename": {
 					"type": "string",
-					"value": "WatercraftIcon"
+					"value": "PatternContentsLink"
 				},
 				"position": {
 					"type": "list<double>",
 					"value": [
-						396,
-						298
+						1197.0859375,
+						300.921875
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents/221.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon/215.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/221.instance": "M901,186L1197.0859375,300.921875",
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/221.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/212.instance": "M1197.2255562694256,300.9760661949722L1493.1711703732205,415.84347650835315"
+					}
+				},
+				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
+			},
+			"223": {
+				"typename": {
+					"type": "string",
+					"value": "SourceIcon"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						1417,
+						514
 					]
 				},
 				"orientation": {
@@ -548,18 +880,18 @@
 					"type": "map<string,*>",
 					"value": {
 						"nodes": {
-							"74": {
+							"72": {
 								"src": {
 									"type": "string",
-									"value": "/Formalisms/02_waterway/Images/watercraft.png"
+									"value": "/Formalisms/02_waterway/Images/Source.png"
 								},
 								"width": {
 									"type": "double",
-									"value": 100
+									"value": 120
 								},
 								"height": {
 									"type": "double",
-									"value": 100
+									"value": 120
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -602,482 +934,15 @@
 									]
 								}
 							},
-							"__pLabelText": {
-								"position": {
-									"type": "list<double>",
-									"value": [
-										0,
-										0
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
+							"88": {
 								"textContent": {
 									"type": "string",
-									"value": "23"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#6000ff",
-										"fill": "#6000ff",
-										"font-size": "15px",
-										"opacity": "1"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "({'textContent':getAttr('__pLabel')})"
-								},
-								"parser": {
-									"type": "code",
-									"value": "({'__pLabel':getAttr('textContent')})"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/02_waterway/02_waterway.pattern/__pWatercraft/75.instance"
-				},
-				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pWatercraftIcon"
-			},
-			"76": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 0,
-						"stroke-width": 0
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "PatternContentsLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						433.5218251275735,
-						303.99978969487603
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents/76.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/LHSIcon/0.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/76.instance": "M411.04444444444437,250.00000000000003L433.5218251275735,303.99978969487603",
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/76.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pWatercraftIcon/75.instance": "M433.5218251275735,303.99978969487603L455.99920581070256,357.99957938975206"
-					}
-				},
-				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
-			},
-			"83": {
-				"typename": {
-					"type": "string",
-					"value": "__pHasWatercraftIcon"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						474,
-						601
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": ""
-				},
-				"parser": {
-					"type": "code",
-					"value": ""
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"text": {
-								"textContent": {
-									"type": "string",
-									"value": "__pHasWatercraftIcon"
+									"value": "rate:#"
 								},
 								"style": {
 									"type": "map<string,string>",
 									"value": {
 										"stroke": "#000000",
-										"stroke-dasharray": "",
-										"fill": "#000000",
-										"fill-opacity": "1",
-										"font-size": "13px"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": ""
-								},
-								"parser": {
-									"type": "code",
-									"value": ""
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										10,
-										76
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								}
-							},
-							"rect": {
-								"width": {
-									"type": "double",
-									"value": 75
-								},
-								"height": {
-									"type": "double",
-									"value": 75
-								},
-								"cornerRadius": {
-									"type": "double",
-									"value": 15
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"fill": "#ffffff",
-										"fill-opacity": 0.75
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": ""
-								},
-								"parser": {
-									"type": "code",
-									"value": ""
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Rectangle",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										0,
-										0
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								}
-							},
-							"textBelowRect": {
-								"distance": {
-									"type": "double",
-									"value": 10
-								},
-								"alignment": {
-									"type": "ENUM(\"right\",\"left\",\"center\")",
-									"value": "center"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Below",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										5,
-										38
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"link-style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#00ff00",
-										"stroke-dasharray": "",
-										"stroke-opacity": 1,
-										"arrow-start": "none",
-										"arrow-end": "classic-wide-long"
-									}
-								}
-							},
-							"__pLabelText": {
-								"position": {
-									"type": "list<double>",
-									"value": [
-										0,
-										0
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"textContent": {
-									"type": "string",
-									"value": "17"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#6000ff",
-										"fill": "#6000ff",
-										"font-size": "15px",
-										"opacity": "1"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "({'textContent':getAttr('__pLabel')})"
-								},
-								"parser": {
-									"type": "code",
-									"value": "({'__pLabel':getAttr('textContent')})"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
-							}
-						},
-						"edges": [
-							{
-								"src": "text",
-								"dest": "textBelowRect"
-							},
-							{
-								"src": "textBelowRect",
-								"dest": "rect"
-							}
-						]
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/02_waterway/02_waterway.pattern/__pHasWatercraft/83.instance"
-				},
-				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pHasWatercraftIcon"
-			},
-			"84": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 0,
-						"stroke-width": 0
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "PatternContentsLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						467.2488341049383,
-						444.140625
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents/84.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/LHSIcon/0.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/84.instance": "M391.0445432098765,242.00000000000003L467.24883410493834,444.140625",
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/84.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pHasWatercraftIcon/83.instance": "M467.27522042818805,444.21061774989016L543.4529046035557,646.2806653731441"
-					}
-				},
-				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
-			},
-			"87": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#ff00ff",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 2
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "is_located_inLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						467.49996912986364,
-						504.49976847397755
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"48": {
-								"textContent": {
-									"type": "string",
-									"value": "watercraft"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#800080",
 										"stroke-dasharray": "",
 										"fill": "#000000",
 										"fill-opacity": 1,
@@ -1099,84 +964,8 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;1.077950128140003,0%",
-										"0;-43.27107242540512,0%"
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": "0;77.38810442265031"
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"$linkDecoratorInfo": {
-									"type": "map<string,double>",
-									"value": {
-										"xratio": 0.3128834355828221,
-										"yoffset": -10.5
-									}
-								}
-							},
-							"267": {
-								"segments": {
-									"type": "string",
-									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"fill": "#000000",
-										"opacity": 1,
-										"stroke-width": 1
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										"0;28.403454932512943,21.834585359532895%",
-										"0;108.62638505959626,97.58714506622925%"
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": "0;77.38810442265029"
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"$linkDecoratorInfo": {
-									"type": "map<string,double>",
-									"value": {
-										"xratio": 1,
-										"yoffset": -4
-									}
-								}
-							},
-							"__pLabelText": {
-								"position": {
-									"type": "list<double>",
-									"value": [
-										0,
-										0
+										22,
+										147
 									]
 								},
 								"orientation": {
@@ -1189,197 +978,12 @@
 										1,
 										1
 									]
-								},
+								}
+							},
+							"90": {
 								"textContent": {
 									"type": "string",
-									"value": "18"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#6000ff",
-										"fill": "#6000ff",
-										"font-size": "15px",
-										"opacity": "1"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "({'textContent':getAttr('__pLabel')})"
-								},
-								"parser": {
-									"type": "code",
-									"value": "({'__pLabel':getAttr('textContent')})"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/02_waterway/02_waterway.pattern/__pis_located_in/87.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pWatercraftIcon/75.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pis_located_inLink/87.instance": "M442.99999999999994,395L467.49996912986364,504.49976847397755",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pis_located_inLink/87.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pHasWatercraftIcon/83.instance": "M467.49996912986364,504.49976847397755L491.9999382597274,613.9995369479551"
-					}
-				},
-				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pis_located_inLink"
-			},
-			"90": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#a000ff",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 1
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "GenericLinkLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						507.5030612226009,
-						532.350000092554
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"__pLabelText": {
-								"position": {
-									"type": "list<double>",
-									"value": [
-										0,
-										0
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"textContent": {
-									"type": "string",
-									"value": "20"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#6000ff",
-										"fill": "#6000ff",
-										"font-size": "15px",
-										"opacity": "1"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "({'textContent':getAttr('__pLabel')})"
-								},
-								"parser": {
-									"type": "code",
-									"value": "({'__pLabel':getAttr('textContent')})"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericGraph/GenericGraph.pattern/__pGenericLink/90.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pHasWatercraftIcon/83.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/90.instance": "M506,606L507.50306122260093,532.350000092554",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/90.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/58.instance": "M507.50305289275383,532.3504082550659L508.9999833553857,459.0008155860984"
-					}
-				},
-				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink"
-			},
-			"183": {
-				"typename": {
-					"type": "string",
-					"value": "__pHasWatercraftIcon"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						1327,
-						658
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": ""
-				},
-				"parser": {
-					"type": "code",
-					"value": ""
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"text": {
-								"textContent": {
-									"type": "string",
-									"value": "__pHasWatercraftIcon"
+									"value": "count:#"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -1387,24 +991,27 @@
 										"stroke": "#000000",
 										"stroke-dasharray": "",
 										"fill": "#000000",
-										"fill-opacity": "1",
-										"font-size": "13px"
+										"fill-opacity": 1,
+										"font-size": "20px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
 									}
 								},
 								"mapper": {
 									"type": "code",
-									"value": ""
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 								},
 								"parser": {
 									"type": "code",
-									"value": ""
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 								},
 								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
 								"position": {
 									"type": "list<double>",
 									"value": [
-										10,
-										76
+										20,
+										172
 									]
 								},
 								"orientation": {
@@ -1419,41 +1026,225 @@
 									]
 								}
 							},
-							"rect": {
+							"117": {
+								"textContent": {
+									"type": "string",
+									"value": "steps passed:#"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#000000",
+										"fill-opacity": 1,
+										"font-size": "20px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										19,
+										198
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"120": {
+								"textContent": {
+									"type": "string",
+									"value": "name:#"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#000000",
+										"fill-opacity": 1,
+										"font-size": "20px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										19,
+										226
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"__pLabelText": {
+								"position": {
+									"type": "list<double>",
+									"value": [
+										0,
+										0
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"textContent": {
+									"type": "string",
+									"value": "3"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#6000ff",
+										"fill": "#6000ff",
+										"font-size": "15px",
+										"opacity": "1"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "({'textContent':getAttr('__pLabel')})"
+								},
+								"parser": {
+									"type": "code",
+									"value": "({'__pLabel':getAttr('textContent')})"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/02_waterway/02_waterway.pattern/__pSource/223.instance"
+				},
+				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon"
+			},
+			"224": {
+				"typename": {
+					"type": "string",
+					"value": "SourceIcon"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						505,
+						475
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"72": {
+								"src": {
+									"type": "string",
+									"value": "/Formalisms/02_waterway/Images/Source.png"
+								},
 								"width": {
 									"type": "double",
-									"value": 75
+									"value": 120
 								},
 								"height": {
 									"type": "double",
-									"value": 75
-								},
-								"cornerRadius": {
-									"type": "double",
-									"value": 15
+									"value": 120
 								},
 								"style": {
 									"type": "map<string,string>",
 									"value": {
 										"stroke": "#000000",
+										"stroke-dasharray": "",
 										"fill": "#ffffff",
-										"fill-opacity": 0.75
+										"fill-opacity": 1,
+										"font-size": "20px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
 									}
 								},
 								"mapper": {
 									"type": "code",
-									"value": ""
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 								},
 								"parser": {
 									"type": "code",
-									"value": ""
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Rectangle",
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Image",
 								"position": {
 									"type": "list<double>",
 									"value": [
-										0,
-										0
+										20,
+										20
 									]
 								},
 								"orientation": {
@@ -1468,21 +1259,38 @@
 									]
 								}
 							},
-							"textBelowRect": {
-								"distance": {
-									"type": "double",
-									"value": 10
+							"88": {
+								"textContent": {
+									"type": "string",
+									"value": "rate:#"
 								},
-								"alignment": {
-									"type": "ENUM(\"right\",\"left\",\"center\")",
-									"value": "center"
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#000000",
+										"fill-opacity": 1,
+										"font-size": "20px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
 								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Below",
+								"mapper": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
 								"position": {
 									"type": "list<double>",
 									"value": [
-										5,
-										38
+										22,
+										147
 									]
 								},
 								"orientation": {
@@ -1495,16 +1303,144 @@
 										1,
 										1
 									]
+								}
+							},
+							"90": {
+								"textContent": {
+									"type": "string",
+									"value": "count:#"
 								},
-								"link-style": {
+								"style": {
 									"type": "map<string,string>",
 									"value": {
-										"stroke": "#00ff00",
+										"stroke": "#000000",
 										"stroke-dasharray": "",
-										"stroke-opacity": 1,
+										"fill": "#000000",
+										"fill-opacity": 1,
+										"font-size": "20px",
+										"stroke-width": 1,
 										"arrow-start": "none",
-										"arrow-end": "classic-wide-long"
+										"arrow-end": "none"
 									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										20,
+										172
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"117": {
+								"textContent": {
+									"type": "string",
+									"value": "steps passed:#"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#000000",
+										"fill-opacity": 1,
+										"font-size": "20px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										19,
+										198
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"120": {
+								"textContent": {
+									"type": "string",
+									"value": "name:#"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#000000",
+										"fill-opacity": 1,
+										"font-size": "20px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										19,
+										226
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
 								}
 							},
 							"__pLabelText": {
@@ -1528,7 +1464,7 @@
 								},
 								"textContent": {
 									"type": "string",
-									"value": "17"
+									"value": "3"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -1550,34 +1486,42 @@
 								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
 							}
 						},
-						"edges": [
-							{
-								"src": "text",
-								"dest": "textBelowRect"
-							},
-							{
-								"src": "textBelowRect",
-								"dest": "rect"
-							}
-						]
+						"edges": []
 					}
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/02_waterway/02_waterway.pattern/__pHasWatercraft/183.instance"
+					"value": "/Formalisms/02_waterway/02_waterway.pattern/__pSource/224.instance"
 				},
-				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pHasWatercraftIcon"
+				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon"
 			},
-			"187": {
+			"225": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 0,
+						"stroke-width": 0
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
 				"typename": {
 					"type": "string",
-					"value": "PlaceIcon"
+					"value": "PatternContentsLink"
 				},
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1338,
-						488
+						486.6824278549383,
+						420.55859375
 					]
 				},
 				"orientation": {
@@ -1593,246 +1537,33 @@
 				},
 				"mapper": {
 					"type": "code",
-					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
 				},
 				"parser": {
 					"type": "code",
-					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
 				},
 				"$contents": {
 					"type": "map<string,*>",
 					"value": {
-						"nodes": {
-							"1": {
-								"r": {
-									"type": "double",
-									"value": 20
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"stroke-dasharray": "",
-										"fill": "yellow",
-										"fill-opacity": 0.75,
-										"font-size": "20px",
-										"stroke-width": 2,
-										"arrow-start": "none",
-										"arrow-end": "none"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Circle",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										2,
-										2
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								}
-							},
-							"2": {
-								"textContent": {
-									"type": "string",
-									"value": "#"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"stroke-dasharray": "",
-										"fill": "#ffffff",
-										"fill-opacity": 0.75,
-										"font-size": "15px",
-										"stroke-width": 1,
-										"arrow-start": "none",
-										"arrow-end": "none"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										18,
-										13
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								}
-							},
-							"3": {
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										11.078337380408811,
-										13.618963631145192
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"link-style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#00ffff",
-										"stroke-dasharray": "",
-										"stroke-opacity": 0.1,
-										"stroke-width": 1
-									}
-								}
-							},
-							"4": {
-								"textContent": {
-									"type": "string",
-									"value": "Name"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"stroke-dasharray": "",
-										"fill": "#ffffff",
-										"fill-opacity": 0.75,
-										"font-size": "15px",
-										"stroke-width": 1,
-										"arrow-start": "none",
-										"arrow-end": "none"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										2,
-										45
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								}
-							},
-							"__pLabelText": {
-								"position": {
-									"type": "list<double>",
-									"value": [
-										0,
-										0
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"textContent": {
-									"type": "string",
-									"value": "14"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#6000ff",
-										"fill": "#6000ff",
-										"font-size": "15px",
-										"opacity": "1"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "({'textContent':getAttr('__pLabel')})"
-								},
-								"parser": {
-									"type": "code",
-									"value": "({'__pLabel':getAttr('textContent')})"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
-							}
-						},
-						"edges": [
-							{
-								"src": "1",
-								"dest": "3"
-							},
-							{
-								"src": "3",
-								"dest": "2"
-							}
-						]
+						"nodes": {},
+						"edges": []
 					}
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/PNS/PN.pattern/__pPlace/187.instance"
+					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents/225.instance"
 				},
-				"$type": "/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon"
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/LHSIcon/216.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/225.instance": "M391.04454320987657,242L486.6824278549383,420.55859375",
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/225.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon/224.instance": "M486.7177443405712,420.62453061209396L582.3199977982516,599.1165999430727"
+					}
+				},
+				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
 			},
-			"190": {
+			"226": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -1857,8 +1588,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1360.503061222601,
-						589.350000092554
+						596,
+						438
 					]
 				},
 				"orientation": {
@@ -1905,7 +1636,7 @@
 								},
 								"textContent": {
 									"type": "string",
-									"value": "20"
+									"value": "4"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -1932,18 +1663,18 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericGraph/GenericGraph.pattern/__pGenericLink/190.instance"
+					"value": "/Formalisms/GenericGraph/GenericGraph.pattern/__pGenericLink/226.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pHasWatercraftIcon/183.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/190.instance": "M1359,663L1360.503061222601,589.350000092554",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/190.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/187.instance": "M1360.5030528927537,589.3504082550659L1361.9999833553857,516.0008155860985"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon/224.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/226.instance": "M580,503L596,438",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/226.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/213.instance": "M596.0359816565733,437.8538245201708L611.9997831335646,373.0008810198939"
 					}
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink"
 			},
-			"194": {
+			"227": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -1968,8 +1699,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1148.7265625,
-						444.640625
+						1197.6780133150842,
+						412.2512274516712
 					]
 				},
 				"orientation": {
@@ -2000,25 +1731,25 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents/194.instance"
+					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents/227.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon/1.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/194.instance": "M901,186L1148.7265625,444.640625",
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/194.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pHasWatercraftIcon/183.instance": "M1148.830184583201,444.74881235016727L1396.4526612798304,703.2807658497605"
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon/215.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/227.instance": "M901,186L1197.6780133150842,412.2512274516712",
+						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/227.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon/223.instance": "M1197.6778209614317,412.25108075980984L1494.1166747404932,638.3199214616938"
 					}
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
 			},
-			"198": {
+			"228": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
-						"stroke": "#000000",
+						"stroke": "#a000ff",
 						"stroke-dasharray": "",
-						"stroke-opacity": 0,
-						"stroke-width": 0
+						"stroke-opacity": 1,
+						"stroke-width": 1
 					}
 				},
 				"arrowHead": {
@@ -2031,13 +1762,13 @@
 				},
 				"typename": {
 					"type": "string",
-					"value": "PatternContentsLink"
+					"value": "GenericLinkLink"
 				},
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1130.3128857888928,
-						352.4319180617015
+						1494.4965116307021,
+						479.3500001201851
 					]
 				},
 				"orientation": {
@@ -2053,31 +1784,74 @@
 				},
 				"mapper": {
 					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 				},
 				"parser": {
 					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 				},
 				"$contents": {
 					"type": "map<string,*>",
 					"value": {
-						"nodes": {},
+						"nodes": {
+							"__pLabelText": {
+								"position": {
+									"type": "list<double>",
+									"value": [
+										0,
+										0
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"textContent": {
+									"type": "string",
+									"value": "0"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#6000ff",
+										"fill": "#6000ff",
+										"font-size": "15px",
+										"opacity": "1"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "({'textContent':getAttr('__pLabel')})"
+								},
+								"parser": {
+									"type": "code",
+									"value": "({'__pLabel':getAttr('textContent')})"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
+							}
+						},
 						"edges": []
 					}
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents/198.instance"
+					"value": "/Formalisms/GenericGraph/GenericGraph.pattern/__pGenericLink/228.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/RHSIcon/1.instance--/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/198.instance": "M901,186L1130.3128857888928,352.4319180617015",
-						"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink/198.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/187.instance": "M1130.3126282351213,352.4317311329642L1359.382126013443,518.6870017581589"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSourceIcon/223.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/228.instance": "M1496,544L1494.4965116307021,479.3500001201851",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink/228.instance--/Formalisms/PNS/PN.defaultIcons.pattern/__pPlaceIcon/212.instance": "M1494.4965224473337,479.3504652353496L1493.0000216109552,415.00092927107744"
 					}
 				},
-				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons/PatternContentsLink"
+				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern/__pGenericLinkLink"
 			}
 		},
 		"edges": [],
@@ -2085,30 +1859,41 @@
 			"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons",
 			"/Formalisms/PNS/PN.defaultIcons.pattern",
 			"/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern",
-			"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern",
-			"/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons"
+			"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern"
 		]
 	},
 	"asm": {
 		"nodes": {
-			"0": {
-				"Condition": {
-					"type": "code",
-					"value": "result = True"
-				},
-				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/LHS"
-			},
-			"1": {
-				"Action": {
-					"type": "code",
-					"value": ""
-				},
-				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/RHS"
-			},
-			"58": {
+			"212": {
 				"__pLabel": {
 					"type": "string",
-					"value": "14"
+					"value": "1"
+				},
+				"__pPivotIn": {
+					"type": "string",
+					"value": ""
+				},
+				"__pPivotOut": {
+					"type": "string",
+					"value": ""
+				},
+				"__pMatchSubtypes": {
+					"type": "boolean"
+				},
+				"tokens": {
+					"type": "code",
+					"value": "result = getAttr()"
+				},
+				"pname": {
+					"type": "code",
+					"value": "result = getAttr()"
+				},
+				"$type": "/Formalisms/PNS/PN.pattern/__pPlace"
+			},
+			"213": {
+				"__pLabel": {
+					"type": "string",
+					"value": "1"
 				},
 				"__pPivotIn": {
 					"type": "string",
@@ -2124,21 +1909,38 @@
 				},
 				"tokens": {
 					"type": "code",
-					"value": "result = (getAttr()=='0')"
+					"value": "result = True"
 				},
 				"pname": {
 					"type": "code",
-					"value": "result = (getAttr()==getAttr('name', '17'))"
+					"value": "result = True"
 				},
 				"$type": "/Formalisms/PNS/PN.pattern/__pPlace"
 			},
-			"59": {
+			"215": {
+				"Action": {
+					"type": "code",
+					"value": "setAttr('counter', int(getAttr('tokens','1')), '3')"
+				},
+				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/RHS"
+			},
+			"216": {
+				"Condition": {
+					"type": "code",
+					"value": "result = (\"counter\" in getAttr('pname', '1')"
+				},
+				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/LHS"
+			},
+			"217": {
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents"
 			},
-			"75": {
+			"221": {
+				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents"
+			},
+			"223": {
 				"__pLabel": {
 					"type": "string",
-					"value": "23"
+					"value": "3"
 				},
 				"__pPivotIn": {
 					"type": "string",
@@ -2149,44 +1951,30 @@
 					"value": ""
 				},
 				"__pMatchSubtypes": {
-					"type": "boolean",
-					"value": true
+					"type": "boolean"
 				},
-				"$type": "/Formalisms/02_waterway/02_waterway.pattern/__pWatercraft"
-			},
-			"76": {
-				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents"
-			},
-			"83": {
-				"__pLabel": {
-					"type": "string",
-					"value": "17"
+				"counter": {
+					"type": "code",
+					"value": "result = getAttr()"
 				},
-				"__pPivotIn": {
-					"type": "string",
-					"value": ""
+				"rate": {
+					"type": "code",
+					"value": "result = getAttr()"
 				},
-				"__pPivotOut": {
-					"type": "string",
-					"value": ""
-				},
-				"__pMatchSubtypes": {
-					"type": "boolean",
-					"value": true
+				"steps_passed": {
+					"type": "code",
+					"value": "result = getAttr()"
 				},
 				"name": {
 					"type": "code",
-					"value": "result = (getAttr() == getAttr('pname', '14'))"
+					"value": "result = getAttr()"
 				},
-				"$type": "/Formalisms/02_waterway/02_waterway.pattern/__pHasWatercraft"
+				"$type": "/Formalisms/02_waterway/02_waterway.pattern/__pSource"
 			},
-			"84": {
-				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents"
-			},
-			"87": {
+			"224": {
 				"__pLabel": {
 					"type": "string",
-					"value": "18"
+					"value": "3"
 				},
 				"__pPivotIn": {
 					"type": "string",
@@ -2200,12 +1988,31 @@
 					"type": "boolean",
 					"value": true
 				},
-				"$type": "/Formalisms/02_waterway/02_waterway.pattern/__pis_located_in"
+				"counter": {
+					"type": "code",
+					"value": "result = True"
+				},
+				"rate": {
+					"type": "code",
+					"value": "result = True"
+				},
+				"steps_passed": {
+					"type": "code",
+					"value": "result = True"
+				},
+				"name": {
+					"type": "code",
+					"value": "result = True"
+				},
+				"$type": "/Formalisms/02_waterway/02_waterway.pattern/__pSource"
 			},
-			"90": {
+			"225": {
+				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents"
+			},
+			"226": {
 				"__pLabel": {
 					"type": "string",
-					"value": "20"
+					"value": "4"
 				},
 				"__pPivotIn": {
 					"type": "string",
@@ -2221,32 +2028,13 @@
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.pattern/__pGenericLink"
 			},
-			"183": {
-				"__pLabel": {
-					"type": "string",
-					"value": "17"
-				},
-				"__pPivotIn": {
-					"type": "string",
-					"value": ""
-				},
-				"__pPivotOut": {
-					"type": "string",
-					"value": ""
-				},
-				"__pMatchSubtypes": {
-					"type": "boolean"
-				},
-				"name": {
-					"type": "code",
-					"value": "result = getAttr()"
-				},
-				"$type": "/Formalisms/02_waterway/02_waterway.pattern/__pHasWatercraft"
+			"227": {
+				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents"
 			},
-			"187": {
+			"228": {
 				"__pLabel": {
 					"type": "string",
-					"value": "14"
+					"value": "0"
 				},
 				"__pPivotIn": {
 					"type": "string",
@@ -2257,115 +2045,67 @@
 					"value": ""
 				},
 				"__pMatchSubtypes": {
-					"type": "boolean"
-				},
-				"tokens": {
-					"type": "code",
-					"value": "result = getAttr()"
-				},
-				"pname": {
-					"type": "code",
-					"value": "result = getAttr()"
-				},
-				"$type": "/Formalisms/PNS/PN.pattern/__pPlace"
-			},
-			"190": {
-				"__pLabel": {
-					"type": "string",
-					"value": "20"
-				},
-				"__pPivotIn": {
-					"type": "string",
-					"value": ""
-				},
-				"__pPivotOut": {
-					"type": "string",
-					"value": ""
-				},
-				"__pMatchSubtypes": {
-					"type": "boolean"
+					"type": "boolean",
+					"value": false
 				},
 				"$type": "/Formalisms/GenericGraph/GenericGraph.pattern/__pGenericLink"
-			},
-			"194": {
-				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents"
-			},
-			"198": {
-				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents"
 			}
 		},
 		"edges": [
 			{
-				"src": "0",
-				"dest": "59"
+				"src": "216",
+				"dest": "217"
 			},
 			{
-				"src": "59",
-				"dest": "58"
+				"src": "217",
+				"dest": "213"
 			},
 			{
-				"src": "0",
-				"dest": "76"
+				"src": "215",
+				"dest": "221"
 			},
 			{
-				"src": "76",
-				"dest": "75"
+				"src": "221",
+				"dest": "212"
 			},
 			{
-				"src": "0",
-				"dest": "84"
+				"src": "216",
+				"dest": "225"
 			},
 			{
-				"src": "84",
-				"dest": "83"
+				"src": "225",
+				"dest": "224"
 			},
 			{
-				"src": "75",
-				"dest": "87"
+				"src": "224",
+				"dest": "226"
 			},
 			{
-				"src": "87",
-				"dest": "83"
+				"src": "226",
+				"dest": "213"
 			},
 			{
-				"src": "83",
-				"dest": "90"
+				"src": "215",
+				"dest": "227"
 			},
 			{
-				"src": "90",
-				"dest": "58"
+				"src": "227",
+				"dest": "223"
 			},
 			{
-				"src": "183",
-				"dest": "190"
+				"src": "223",
+				"dest": "228"
 			},
 			{
-				"src": "190",
-				"dest": "187"
-			},
-			{
-				"src": "1",
-				"dest": "194"
-			},
-			{
-				"src": "194",
-				"dest": "183"
-			},
-			{
-				"src": "1",
-				"dest": "198"
-			},
-			{
-				"src": "198",
-				"dest": "187"
+				"src": "228",
+				"dest": "212"
 			}
 		],
 		"metamodels": [
 			"/Formalisms/__Transformations__/TransformationRule/TransformationRule",
 			"/Formalisms/PNS/PN.pattern",
 			"/Formalisms/GenericGraph/GenericGraph.pattern",
-			"/Formalisms/02_waterway/02_waterway.pattern",
-			"/Formalisms/__Transformations__/Transformation/MoTif"
+			"/Formalisms/02_waterway/02_waterway.pattern"
 		]
 	}
 }
