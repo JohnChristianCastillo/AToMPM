@@ -30598,74 +30598,6 @@
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/PlaceIcon"
 			},
-			"302": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#a000ff",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 1
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "GenericLinkLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						239.5,
-						1514.5
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericGraph/GenericGraph/GenericLink/302.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/62.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/302.instance": "M138,1706L239.5,1514.5",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/302.instance--/Formalisms/PNS/PN.defaultIcons/PlaceIcon/301.instance": "M239.53506421648078,1514.4338443600388L340.9997077978783,1323.0005512975993"
-					}
-				},
-				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
-			},
 			"303": {
 				"link-style": {
 					"type": "map<string,string>",
@@ -35373,6 +35305,74 @@
 					}
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/NextLink"
+			},
+			"345": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#a000ff",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 1
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "GenericLinkLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						253.5,
+						1515
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericGraph/GenericGraph/GenericLink/345.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/62.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/345.instance": "M174,1706L253.5,1515",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/345.instance--/Formalisms/PNS/PN.defaultIcons/PlaceIcon/301.instance": "M253.52879019578347,1514.9308311019545L332.9997484348817,1324.0006043891522"
+					}
+				},
+				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
 			}
 		},
 		"edges": [],
@@ -36677,9 +36677,6 @@
 				},
 				"$type": "/Formalisms/PNS/PN/Place"
 			},
-			"302": {
-				"$type": "/Formalisms/GenericGraph/GenericGraph/GenericLink"
-			},
 			"303": {
 				"weight": {
 					"type": "int",
@@ -36884,6 +36881,9 @@
 			},
 			"344": {
 				"$type": "/Formalisms/PNS/PN/Next"
+			},
+			"345": {
+				"$type": "/Formalisms/GenericGraph/GenericGraph/GenericLink"
 			}
 		},
 		"edges": [
@@ -37912,14 +37912,6 @@
 				"dest": "94"
 			},
 			{
-				"src": "62",
-				"dest": "302"
-			},
-			{
-				"src": "302",
-				"dest": "301"
-			},
-			{
 				"src": "194",
 				"dest": "303"
 			},
@@ -38070,6 +38062,14 @@
 			{
 				"src": "344",
 				"dest": "276"
+			},
+			{
+				"src": "62",
+				"dest": "345"
+			},
+			{
+				"src": "345",
+				"dest": "301"
 			}
 		],
 		"metamodels": [

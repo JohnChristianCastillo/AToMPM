@@ -139,7 +139,7 @@
 							"90": {
 								"textContent": {
 									"type": "string",
-									"value": "count: 3"
+									"value": "count: 4"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -2242,7 +2242,7 @@
 							"85": {
 								"textContent": {
 									"type": "string",
-									"value": "Mode: 0"
+									"value": "Mode: 1"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -13552,7 +13552,7 @@
 							"32": {
 								"textContent": {
 									"type": "string",
-									"value": 1
+									"value": 0
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -14986,7 +14986,7 @@
 							"32": {
 								"textContent": {
 									"type": "string",
-									"value": 0
+									"value": 1
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -26874,7 +26874,7 @@
 									"value": {
 										"stroke": "#000000",
 										"stroke-dasharray": "",
-										"fill": "#96bfff",
+										"fill": "#4287f5",
 										"fill-opacity": 1,
 										"font-size": "20px",
 										"stroke-width": 1,
@@ -29400,74 +29400,6 @@
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/PlaceIcon"
 			},
-			"302": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#a000ff",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 1
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "GenericLinkLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						239.5,
-						1514.5
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericGraph/GenericGraph/GenericLink/302.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/62.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/302.instance": "M138,1706L239.5,1514.5",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/302.instance--/Formalisms/PNS/PN.defaultIcons/PlaceIcon/301.instance": "M239.53506421648078,1514.4338443600388L340.9997077978783,1323.0005512975993"
-					}
-				},
-				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
-			},
 			"303": {
 				"link-style": {
 					"type": "map<string,string>",
@@ -31274,7 +31206,7 @@
 									"value": {
 										"stroke": "#000000",
 										"stroke-dasharray": "",
-										"fill": "#4287f5",
+										"fill": "#96bfff",
 										"fill-opacity": 1,
 										"font-size": "20px",
 										"stroke-width": 1,
@@ -32147,7 +32079,7 @@
 							"2": {
 								"textContent": {
 									"type": "string",
-									"value": 1
+									"value": 0
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -33549,74 +33481,6 @@
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/PlaceIcon"
 			},
-			"342": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#a000ff",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 1
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "GenericLinkLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						1296.9998661627296,
-						220.50002190064424
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericGraph/GenericGraph/GenericLink/342.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/71.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/342.instance": "M1302,268L1296.9998661627296,220.50002190064424",
-						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/342.instance--/Formalisms/PNS/PN.defaultIcons/PlaceIcon/341.instance": "M1296.9998661627296,220.50002190064424L1291.999732325459,173.0000438012885"
-					}
-				},
-				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
-			},
 			"343": {
 				"link-style": {
 					"type": "map<string,string>",
@@ -33906,7 +33770,7 @@
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons/NextLink"
 			},
-			"346": {
+			"349": {
 				"typename": {
 					"type": "string",
 					"value": "WatercraftIcon"
@@ -34001,11 +33865,11 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/02_waterway/02_waterway/Watercraft/346.instance"
+					"value": "/Formalisms/02_waterway/02_waterway/Watercraft/349.instance"
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/WatercraftIcon"
 			},
-			"347": {
+			"350": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -34165,18 +34029,18 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/02_waterway/02_waterway/is_located_in/347.instance"
+					"value": "/Formalisms/02_waterway/02_waterway/is_located_in/350.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/WatercraftIcon/346.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink/347.instance": "M3353.5,1351.5L3358.25,1412.25",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink/347.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/66.instance": "M3358.25,1412.25L3363,1473"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/WatercraftIcon/349.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink/350.instance": "M3353.5,1351.5L3358.25,1412.25",
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink/350.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/66.instance": "M3358.25,1412.25L3363,1473"
 					}
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink"
 			},
-			"349": {
+			"354": {
 				"typename": {
 					"type": "string",
 					"value": "WatercraftIcon"
@@ -34271,11 +34135,11 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/02_waterway/02_waterway/Watercraft/349.instance"
+					"value": "/Formalisms/02_waterway/02_waterway/Watercraft/354.instance"
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/WatercraftIcon"
 			},
-			"350": {
+			"355": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -34435,18 +34299,18 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/02_waterway/02_waterway/is_located_in/350.instance"
+					"value": "/Formalisms/02_waterway/02_waterway/is_located_in/355.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/WatercraftIcon/349.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink/350.instance": "M2974,1347.5L2979.5,1404.25",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink/350.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/65.instance": "M2979.5,1404.25L2985,1461"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/WatercraftIcon/354.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink/355.instance": "M2974,1347.5L2979.5,1404.25",
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink/355.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/65.instance": "M2979.5,1404.25L2985,1461"
 					}
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink"
 			},
-			"354": {
+			"365": {
 				"typename": {
 					"type": "string",
 					"value": "WatercraftIcon"
@@ -34541,11 +34405,11 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/02_waterway/02_waterway/Watercraft/354.instance"
+					"value": "/Formalisms/02_waterway/02_waterway/Watercraft/365.instance"
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/WatercraftIcon"
 			},
-			"355": {
+			"366": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -34705,18 +34569,18 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/02_waterway/02_waterway/is_located_in/355.instance"
+					"value": "/Formalisms/02_waterway/02_waterway/is_located_in/366.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/WatercraftIcon/354.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink/355.instance": "M1530,1346L1364.5,1481",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink/355.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance": "M1364.5,1481L1199,1616"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/WatercraftIcon/365.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink/366.instance": "M1530,1346L1364.5,1481",
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink/366.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/ConfluenceIcon/94.instance": "M1364.5,1481L1199,1616"
 					}
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink"
 			},
-			"359": {
+			"376": {
 				"typename": {
 					"type": "string",
 					"value": "WatercraftIcon"
@@ -34811,11 +34675,11 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/02_waterway/02_waterway/Watercraft/359.instance"
+					"value": "/Formalisms/02_waterway/02_waterway/Watercraft/376.instance"
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/WatercraftIcon"
 			},
-			"360": {
+			"377": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -34975,18 +34839,154 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/02_waterway/02_waterway/is_located_in/360.instance"
+					"value": "/Formalisms/02_waterway/02_waterway/is_located_in/377.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/WatercraftIcon/359.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink/360.instance": "M576.5,1506.5L570.25,1559.75",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink/360.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/63.instance": "M570.25,1559.75L564,1613"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/WatercraftIcon/376.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink/377.instance": "M576.5,1506.5L570.25,1559.75",
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink/377.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SegmentIcon/63.instance": "M570.25,1559.75L564,1613"
 					}
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/is_located_inLink"
 			},
-			"362": {
+			"378": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#a000ff",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 1
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "GenericLinkLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						200,
+						200
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericGraph/GenericGraph/GenericLink/378.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/71.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/378.instance": "M1175,215L1228,178",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/378.instance--/Formalisms/PNS/PN.defaultIcons/PlaceIcon/341.instance": "M1228,178L1281,141"
+					}
+				},
+				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
+			},
+			"379": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#a000ff",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 1
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "GenericLinkLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						200,
+						200
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericGraph/GenericGraph/GenericLink/379.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/62.instance--/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/379.instance": "M100,1671L211.5,1483",
+						"/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink/379.instance--/Formalisms/PNS/PN.defaultIcons/PlaceIcon/301.instance": "M211.5,1483L323,1295"
+					}
+				},
+				"$type": "/Formalisms/GenericGraph/GenericGraph.defaultIcons/GenericLinkLink"
+			},
+			"380": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -35064,13 +35064,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;3635.956679956211,10.392636173273484%",
-										"0;1289.1685891061381,99.45849945263586%"
+										"0;-97.47395153494355,-94.8840403731263%",
+										"0;1478.59072322985,31.575605813205527%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;84.03468679929752"
+									"value": "0;161.59353764117748"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -35093,13 +35093,13 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/02_waterway/02_waterway/curr_item/362.instance"
+					"value": "/Formalisms/02_waterway/02_waterway/curr_item/380.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/CurrItemIcon/112.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/curr_itemLink/362.instance": "M3721,466L3774.5,978",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons/curr_itemLink/362.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SinkIcon/111.instance": "M3774.5,978L3828,1490"
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/CurrItemIcon/112.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/curr_itemLink/380.instance": "M3721,466L1910.5,1068.5",
+						"/Formalisms/02_waterway/02_waterway.defaultIcons/curr_itemLink/380.instance--/Formalisms/02_waterway/02_waterway.defaultIcons/SourceIcon/62.instance": "M1910.5,1068.5L100,1671"
 					}
 				},
 				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons/curr_itemLink"
@@ -35117,7 +35117,7 @@
 			"62": {
 				"counter": {
 					"type": "int",
-					"value": 3
+					"value": 4
 				},
 				"rate": {
 					"type": "int",
@@ -35213,7 +35213,7 @@
 			"94": {
 				"mode": {
 					"type": "int",
-					"value": "0"
+					"value": 1
 				},
 				"name": {
 					"type": "string",
@@ -35684,7 +35684,7 @@
 				},
 				"tokens": {
 					"type": "int",
-					"value": 1
+					"value": 0
 				},
 				"pname": {
 					"type": "string",
@@ -35758,7 +35758,7 @@
 				},
 				"tokens": {
 					"type": "int",
-					"value": 0
+					"value": 1
 				},
 				"pname": {
 					"type": "string",
@@ -36271,7 +36271,7 @@
 				},
 				"isCurrent": {
 					"type": "boolean",
-					"value": true
+					"value": false
 				},
 				"$type": "/Formalisms/PNS/PN/ScheduledTransition"
 			},
@@ -36380,9 +36380,6 @@
 				},
 				"$type": "/Formalisms/PNS/PN/Place"
 			},
-			"302": {
-				"$type": "/Formalisms/GenericGraph/GenericGraph/GenericLink"
-			},
 			"303": {
 				"weight": {
 					"type": "int",
@@ -36475,7 +36472,7 @@
 				},
 				"isCurrent": {
 					"type": "boolean",
-					"value": false
+					"value": true
 				},
 				"$type": "/Formalisms/PNS/PN/ScheduledTransition"
 			},
@@ -36505,7 +36502,7 @@
 			"333": {
 				"tokens": {
 					"type": "int",
-					"value": 1
+					"value": 0
 				},
 				"pname": {
 					"type": "string",
@@ -36569,9 +36566,6 @@
 				},
 				"$type": "/Formalisms/PNS/PN/Place"
 			},
-			"342": {
-				"$type": "/Formalisms/GenericGraph/GenericGraph/GenericLink"
-			},
 			"343": {
 				"weight": {
 					"type": "int",
@@ -36581,12 +36575,6 @@
 			},
 			"344": {
 				"$type": "/Formalisms/PNS/PN/Next"
-			},
-			"346": {
-				"$type": "/Formalisms/02_waterway/02_waterway/Watercraft"
-			},
-			"347": {
-				"$type": "/Formalisms/02_waterway/02_waterway/is_located_in"
 			},
 			"349": {
 				"$type": "/Formalisms/02_waterway/02_waterway/Watercraft"
@@ -36600,13 +36588,25 @@
 			"355": {
 				"$type": "/Formalisms/02_waterway/02_waterway/is_located_in"
 			},
-			"359": {
+			"365": {
 				"$type": "/Formalisms/02_waterway/02_waterway/Watercraft"
 			},
-			"360": {
+			"366": {
 				"$type": "/Formalisms/02_waterway/02_waterway/is_located_in"
 			},
-			"362": {
+			"376": {
+				"$type": "/Formalisms/02_waterway/02_waterway/Watercraft"
+			},
+			"377": {
+				"$type": "/Formalisms/02_waterway/02_waterway/is_located_in"
+			},
+			"378": {
+				"$type": "/Formalisms/GenericGraph/GenericGraph/GenericLink"
+			},
+			"379": {
+				"$type": "/Formalisms/GenericGraph/GenericGraph/GenericLink"
+			},
+			"380": {
 				"$type": "/Formalisms/02_waterway/02_waterway/curr_item"
 			}
 		},
@@ -37596,14 +37596,6 @@
 				"dest": "171"
 			},
 			{
-				"src": "62",
-				"dest": "302"
-			},
-			{
-				"src": "302",
-				"dest": "301"
-			},
-			{
 				"src": "194",
 				"dest": "303"
 			},
@@ -37724,14 +37716,6 @@
 				"dest": "337"
 			},
 			{
-				"src": "71",
-				"dest": "342"
-			},
-			{
-				"src": "342",
-				"dest": "341"
-			},
-			{
 				"src": "181",
 				"dest": "343"
 			},
@@ -37748,20 +37732,12 @@
 				"dest": "276"
 			},
 			{
-				"src": "346",
-				"dest": "347"
-			},
-			{
-				"src": "347",
-				"dest": "66"
-			},
-			{
 				"src": "349",
 				"dest": "350"
 			},
 			{
 				"src": "350",
-				"dest": "65"
+				"dest": "66"
 			},
 			{
 				"src": "354",
@@ -37769,23 +37745,47 @@
 			},
 			{
 				"src": "355",
+				"dest": "65"
+			},
+			{
+				"src": "365",
+				"dest": "366"
+			},
+			{
+				"src": "366",
 				"dest": "94"
 			},
 			{
-				"src": "359",
-				"dest": "360"
+				"src": "376",
+				"dest": "377"
 			},
 			{
-				"src": "360",
+				"src": "377",
 				"dest": "63"
 			},
 			{
-				"src": "112",
-				"dest": "362"
+				"src": "71",
+				"dest": "378"
 			},
 			{
-				"src": "362",
-				"dest": "111"
+				"src": "378",
+				"dest": "341"
+			},
+			{
+				"src": "62",
+				"dest": "379"
+			},
+			{
+				"src": "379",
+				"dest": "301"
+			},
+			{
+				"src": "112",
+				"dest": "380"
+			},
+			{
+				"src": "380",
+				"dest": "62"
 			}
 		],
 		"metamodels": [

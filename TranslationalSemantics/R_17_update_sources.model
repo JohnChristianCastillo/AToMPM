@@ -1927,7 +1927,7 @@
 			"216": {
 				"Condition": {
 					"type": "code",
-					"value": "result = (\"counter\" in getAttr('pname', '1')"
+					"value": "result = (\"counter\" in getAttr('pname', '1'))"
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/LHS"
 			},

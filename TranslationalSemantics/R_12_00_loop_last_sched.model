@@ -4342,166 +4342,6 @@
 				},
 				"$type": "/Formalisms/PNS/PN.defaultIcons.pattern/__pTransitionToPlaceLink"
 			},
-			"289": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#00ff7f",
-						"stroke-dasharray": "",
-						"stroke-opacity": 0.7,
-						"stroke-width": 3
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "higher_priority_thanLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						2993.0002027075184,
-						1180.0001144171324
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"274": {
-								"segments": {
-									"type": "string",
-									"value": "m0,0 l10,4 l-10,4 z"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"fill": "#000000",
-										"opacity": 1,
-										"stroke-width": 1
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										"0;-108.41886150824257,-98.9397342280604%",
-										"0;19.957703786255024,14.523394605971864%"
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": "0;171.64917328191288"
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"$linkDecoratorInfo": {
-									"type": "map<string,double>",
-									"value": {
-										"xratio": 1,
-										"yoffset": -4
-									}
-								}
-							},
-							"__pLabelText": {
-								"position": {
-									"type": "list<double>",
-									"value": [
-										0,
-										0
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"textContent": {
-									"type": "string",
-									"value": "22"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#6000ff",
-										"fill": "#6000ff",
-										"font-size": "15px",
-										"opacity": "1"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "({'textContent':getAttr('__pLabel')})"
-								},
-								"parser": {
-									"type": "code",
-									"value": "({'__pLabel':getAttr('textContent')})"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/02_waterway/02_waterway.pattern/__phigher_priority_than/289.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSchedulableIcon/280.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__phigher_priority_thanLink/289.instance": "M3293,1203.9999999999998L3102,1163.9999999999998L2993.0002027075184,1180.0001144171324",
-						"/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__phigher_priority_thanLink/289.instance--/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__pSchedulableIcon/281.instance": "M2993.0002027075184,1180.0001144171324L2884.0004054150368,1196.000228834265"
-					}
-				},
-				"$type": "/Formalisms/02_waterway/02_waterway.defaultIcons.pattern/__phigher_priority_thanLink"
-			},
 			"290": {
 				"link-style": {
 					"type": "map<string,string>",
@@ -9763,24 +9603,6 @@
 				},
 				"$type": "/Formalisms/PNS/PN.pattern/__pTransitionToPlace"
 			},
-			"289": {
-				"__pLabel": {
-					"type": "string",
-					"value": "22"
-				},
-				"__pPivotIn": {
-					"type": "string",
-					"value": ""
-				},
-				"__pPivotOut": {
-					"type": "string",
-					"value": ""
-				},
-				"__pMatchSubtypes": {
-					"type": "boolean"
-				},
-				"$type": "/Formalisms/02_waterway/02_waterway.pattern/__phigher_priority_than"
-			},
 			"290": {
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/PatternContents"
 			},
@@ -10357,14 +10179,6 @@
 			{
 				"src": "287",
 				"dest": "278"
-			},
-			{
-				"src": "280",
-				"dest": "289"
-			},
-			{
-				"src": "289",
-				"dest": "281"
 			},
 			{
 				"src": "1",
